@@ -17,6 +17,7 @@ footer.contact-info{
     color: #28304c;
     padding: 5px;
     line-height: 1;
+    clear: both;
 }
 p.projects{
     float:left;
