@@ -12,7 +12,7 @@ img{
 }
 footer.contact-info{
     font-size: 12px;
-    position: relative;
+    position: absolute;
     bottom: 0;
     color: #28304c;
     padding: 5px;
