@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <head>
-    <html lang="en-us"></html>
+    <html lang="en-us">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Toni Powell's Bio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/87ce90e3db.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 </head>
-<h1>Hello World</h1>
-<h2>I will be adding stuff and things here</h2>
-<img src="photo.jpg" alt="photo of me">
-<body>
-    <p class="projects"> 
-        <!-- "things i'm working on" -->
-        <h4>Things I'm Working On</h4>
-        <ul>
-            <li><a href="https://tonipow3ll.github.io/expert-spork/" target="blank">A page about platypuses</a></li>
-            <li><a href="https://tonipow3ll.github.io/effective-octo-umbrella/index.html" target="blank">The first HTML/CSS Page I ever attempted</a></li>
-        </ul>
+<body>  
+    <header>
+    <h1>Hello World</h1>
+    <h2>I will be adding stuff and things here</h2>
+    </header>   
+    <aside>
+        <img src="photo.jpg" alt="photo of me">
+    </aside>
+         <p class="container"> 
+           <!-- "things i'm working on" -->
+          <h4 class="row">Things I'm Working On</h4>
+             <ul class="col-md-lg" >
+                 <li><a href="#" target="blank">Random Password Generator V1</a></li>
+                 <li><a href="https://tonipow3ll.github.io/expert-spork/" target="blank">A page about platypuses</a></li>
+                <li><a href="https://tonipow3ll.github.io/effective-octo-umbrella/index.html" target="blank">The first HTML/CSS Page I ever attempted</a></li>
+             </ul>
         <!-- about / bio -->
           <!-- <aside> 
              <h3>a little bit about me</h3>
@@ -34,12 +43,13 @@
          They’re not much bigger than two meters. Man your ships! And may the Force be with you!
     </p>
 
-    <footer class="contact-info">  
-    
-        <h2>Contact</h2>
-        <b>Email:</b><a href="#">tonipow3ll@gmail</a>
-        <b>Github:</b><a href="https://tonipow3ll.github.io">ToniPow3ll</a>
-        <b>Portfolio:</b><a href="#">Coming Soon</a>
-    
-</footer>
+
+    <footer class="footer bg-light mt-auto py-3 fixed-bottom">
+        <div class="container text-center">
+           <a href="https://www.linkedin.com/in/tonipowell13" class="fab fa-linkedin-in fa-2x"></a>
+           <a href="https://tonipow3ll.github.io/" class="fab fa-github fa-2x"></a>
+       </div>
+   </footer>
+   
 </body>
+</html>

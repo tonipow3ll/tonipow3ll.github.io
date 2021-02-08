@@ -10,16 +10,8 @@ img{
     height: auto;
     float: right; 
 }
-footer.contact-info{
-    font-size: 12px;
-    position: absolute;
-    bottom: 0;
-    color: #28304c;
-    padding: 5px;
-    line-height: 1;
-    clear: both;
-}
-p.projects{
+
+/* p.projects{
     float:left;
 
-}
+} */
