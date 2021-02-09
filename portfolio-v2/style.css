@@ -3,8 +3,6 @@ html{
 }
 body , html{
   background-image: url(../images/796843.png) !important; 
-  /* background-color: #A3B5BD; */
-  /* background-image: url(796843.png) !important; */
   color: #fafafb !important;
 }
 .navbar, .navbar-item, h1.subtitle{
@@ -21,11 +19,6 @@ a {
   text-decoration: none !important;
 }
 
-/* .notification{
-  background-color: #629aaa;
-  color: #3d4445;
-} */
-
 .notification, #main, #framework{
   background-color: #3d4445;
   color: #fafafb;
@@ -33,10 +26,36 @@ a {
 }
 .navbar-burger{
   color: #fafafb !important;
+
 }
+
 #nav-toggle.navbar-burger.nav-toggle.is-active{
   color: #fafafb;
+ 
 }
  #projects{
   cursor: pointer;
+}
+
+/* MEDIA QUERIES */
+ 
+ @media (min-width: 769px) { 
+}
+
+@media (max-width: 900px){
+.modal-card{
+}
+
+@media (max-width: 768px){
+.columns{
+  text-align: center;
+}
+a.navbar-item{
+  align-items: center;
+}
+div.navbar-menu.is-active{
+  background-color: #3d4445;
+}
+
+}
 }
