@@ -1,10 +1,10 @@
 # tonipow3ll.github.io
-# Hi there 👋
+# Hi, my name is Toni. 
 
-### 🌱 I’m currently learning HTML, CSS, and JS. 
+### I’m currently attending UNH's Coding Bootcamp, and learning HTML/CSS, Javascript, and learning MERN stack. 
 
-### 🤔 Please feel free to send me any resources or things that might help a new coder along the way!
+### I am excited to continue learning, and hopefully join a team where I can grow my skills. 
 
-#### 📫 How to reach me: tonipow3ll@gmail.com
+#### 📫 Email: tonipow3ll@gmail.com
 
-#### ⚡ Fun fact: I'm terrible at 'fun facts'... But my biggest guilty pleasure is most things true crime! 
+#### ⚡ If I am not coding, you can usually find me outside - riding my snowmobile or out exploring on my ATV depending on the season. 
