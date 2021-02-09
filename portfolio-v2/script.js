@@ -1,13 +1,22 @@
 $( document ).ready(function() {
 
+    // SHOW/HIDE PROJECTS
     $("#projects").on('click', function(){
        $('#projectCards').removeClass("is-hidden");
     })
     $("#hideProjects").on('click', function(){
         $('#projectCards').addClass('is-hidden');
     })
+    // SHOW LANGUAGES
+    // $(".subtitle").on('click', function(){
+    //     $(".text").toggleClass("is-hidden")
+    // })
+    // $(".subtitle").on('click', function(){
+    //     $(".text").addClass("is-hidden")
+    // })
 
-   //nav bar
+
+   // NAVBAR
   // Get all "navbar-burger" elements
   $(".navbar-burger").click(function() {
 

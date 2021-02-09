@@ -1,7 +1,42 @@
-
+html{
+  background-image: url(../images/796843.png) no-repeat center fixed; 
+}
+body , html{
+  background-image: url(../images/796843.png) !important; 
+  /* background-color: #A3B5BD; */
+  /* background-image: url(796843.png) !important; */
+  color: #fafafb !important;
+}
+.navbar, .navbar-item, h1.subtitle{
+  background-color: #3d4445;
+  color: #fafafb;
+}
 img{
   max-height: 100%;
   max-width: 100%;
 }
 
-/* slider testing */
+a {
+  color: #a3b5bd;
+  text-decoration: none !important;
+}
+
+/* .notification{
+  background-color: #629aaa;
+  color: #3d4445;
+} */
+
+.notification, #main, #framework{
+  background-color: #3d4445;
+  color: #fafafb;
+  /* max-width: 75%; */
+}
+.navbar-burger{
+  color: #fafafb !important;
+}
+#nav-toggle.navbar-burger.nav-toggle.is-active{
+  color: #fafafb;
+}
+ #projects{
+  cursor: pointer;
+}
