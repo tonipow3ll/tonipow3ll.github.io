@@ -18,7 +18,10 @@ a {
   color: #a3b5bd;
   text-decoration: none !important;
 }
-
+a.navbar-item:hover{
+  background-color: #3d4445;
+  color: #629aaa;
+}
 .notification, #main, #framework{
   background-color: #3d4445;
   color: #fafafb;
