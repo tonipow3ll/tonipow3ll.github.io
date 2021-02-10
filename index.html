@@ -6,10 +6,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+  <!-- BULMA CAROUSEL -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/css/bulma-carousel.min.css">
   <!-- CSS -->
   <link rel="stylesheet" href="portfolio-v2/style.css">
   <!-- GOOGLE FONTS  -->
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet"> -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300&display=swap" rel="stylesheet">
   <!-- FONT AWESOME  -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
     integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
@@ -24,7 +28,7 @@
 
   <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <a class="navbar-item title" href="#">
+      <a class="navbar-item title mt-3" href="#">
         Toni Powell
       </a>
 
@@ -92,10 +96,11 @@
         <p class="text">I enjoy spending my time outdoors, atv-ing or snowmobiling. If I'm not coding you can usually find me in the garage fixing up one of our machines. </p> -->
         <h1 class="subtitle pt-5"><a target="blank"
             href="Files/Copy of Toni Powell Resume.pdf">
-            View Resume</a></h1>
+            Resume &nbsp;<i class="far fa-file"></i></a></h1>
         <a id="projects" href="#projectCards" class="subtitle">
-          Projects
+          Projects &nbsp;<i class="fas fa-code-branch"></i>
         </a>
+        <!-- <h1 class="subtitle pt-5">Fun Facts</h1> -->
       </div>
       <!-- </div> -->
   </div>
@@ -122,8 +127,96 @@
   <div id="projectCards" class="columns is-hidden">
     <div class="column">
 
+      <!-- Start Hero Carousel -->
+		<!-- <section class="hero is-medium has-carousel">
+			<div id="carousel" class="hero-carousel" data-slidesToShow="1"data-loop="true" data-navigationSwipe="true" data-navigation="false" data-navigationKeys="false">
+				<div class="item-1">
+          <div class="container">
+            <div class="notification ">
+              <div class="columns">
+                <div class="column is-two-thirds">
+                  <p class="title has-text-left">Easy Recipeazy</p>
+                  <p class="subtitle ">Unsure of what to eat for dinner? Picky, or indecisive? Don't know what to make with
+                    what you have on hand? We have a solution. Easy Recipeazy is the application made for simplifying
+                    dinner, or a drink, or both. Users can simply enter in ingredients they have on hand, or preferences of
+                    what they would like to use, and our application will randomly show a meal or drink option (or both)
+                    depending on their inputs.</p>
+                  <a href="https://github.com/tonipow3ll/drinks-and-dinner"> Code <i class="fab fa-github fa-lg"></i></a>
+                  <a href="https://tonipow3ll.github.io/drinks-and-dinner/"> Deployed Application</a>
+                </div>
+                <div class="column is-one-third">
+                  <img src="images/Easy-Recipeazy.png" alt="Easy Recipeazy Screenshot">
+                </div>
+              </div>
+            </div>
+          </div>
+				</div>
+				<div class="item-2">
+					
+          <div class="container">
+            <div class="notification">
+              <div class="columns">
+                <div class="column is-one-third">
+                  <img src="images/weather-app.png" alt="Weather-app screenshot">
+                </div>
+                <div class="column is-two-thirds">
+                  <p class="title has-text-left">Weather App Lite</p>
+                  <p class="subtitle ">A lite version of a Weather Application Dashboard. Users can search for a city (by
+                    city name, zip code, or city state and country code) and see the current weather forecast for that day.
+                  </p>
+                  <a href="https://github.com/tonipow3ll/Weather-App-Lite"> Code <i class="fab fa-github fa-lg"></i></a>
+                  <a href="https://tonipow3ll.github.io/Weather-App-Lite/"> Deployed Application</a>
+                </div>
+    
+              </div>
+            </div>
+          </div>
+				</div>
+				<div class="item-3">
+          <div class="container py-3">
+            <div class="notification">
+              <div class="columns">
+                <div class="column is-two-thirds">
+                  <p class="title has-text-left">Code Quiz</p>
+                  <p class="subtitle ">A basic coding quiz app to test users knowledge on basic Javascript, HTML, and CSS questions. 
+                  </p>
+                  <a href="https://github.com/tonipow3ll/Code-Quiz"> Code <i class="fab fa-github fa-lg"></i></a>
+                  <a href="https://tonipow3ll.github.io/Code-Quiz/"> Deployed Application</a>
+                </div>
+                  <div class="column is-one-third">
+                    <img src="images/codequiz.png" alt="Code-Quiz Screenshot">
+                  </div>
+    
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item-4">
+          <div class="container py-3">
+            <div class="notification">
+              <div class="columns">
+                <div class="column is-one-third">
+                  <img src="images/password-generator.png" alt="PW Generator Screenshot">
+                </div>
+                <div class="column is-two-thirds">
+                  <p class="title has-text-left">Password Generator</p>
+                  <p class="subtitle ">A random password generator. Users can enter in the number of characters they wish -
+                    and create password with special characters, capital letters, numbers, or lowecase letters only.</p>
+                  <a href="https://github.com/tonipow3ll/passwordgenerator"> Code <i class="fab fa-github fa-lg"></i></a>
+                  <a href="https://tonipow3ll.github.io/passwordgenerator/"> Deployed Application</a>
+                </div>
+              </div>
+            </div>
+          </div>
+				</div>
+			</div>
+			<div class="hero-head"></div>
+			<div class="hero-body"></div>
+			<div class="hero-foot"></div>
+		</section> -->
 
-      <div class="container">
+
+      <div class="container py-3">
         <div class="notification ">
           <div class="columns">
             <div class="column is-two-thirds">
@@ -144,7 +237,7 @@
       </div>
 
 
-      <div class="container py-3">
+      <div class="container">
         <div class="notification">
           <div class="columns">
             <div class="column is-one-third">
@@ -208,6 +301,14 @@
 
     </div>
 
+    <!-- CAROUSEL -->
+		<script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
+		<script>
+			bulmaCarousel.attach('#carousel', {
+				slidesToScroll: 1,
+				slidesToShow: 1
+			});
+		</script>
     <!-- JS -->
     <script src="portfolio-v2/script.js"></script>
 </body>

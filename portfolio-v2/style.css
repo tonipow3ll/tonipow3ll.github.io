@@ -9,6 +9,9 @@ body , html{
   background-color: #3d4445;
   color: #fafafb;
 }
+.navbar, .navbar-item{
+  font-family: 'Darker Grotesque', sans-serif;
+}
 img{
   max-height: 100%;
   max-width: 100%;
