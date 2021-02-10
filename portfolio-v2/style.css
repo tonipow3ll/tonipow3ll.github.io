@@ -43,12 +43,13 @@ a {
 }
 
 @media (max-width: 900px){
-.modal-card{
+
 }
 
 @media (max-width: 768px){
-.columns{
+.columns.column.container{
   text-align: center;
+  align-items: center;
 }
 a.navbar-item{
   align-items: center;
@@ -58,4 +59,4 @@ div.navbar-menu.is-active{
 }
 
 }
-}
+
