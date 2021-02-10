@@ -52,7 +52,8 @@ a {
   align-items: center;
 }
 a.navbar-item{
-  align-items: center;
+  
+  text-align: center;
 }
 div.navbar-menu.is-active{
   background-color: #3d4445;
