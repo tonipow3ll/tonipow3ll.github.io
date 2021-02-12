@@ -1,5 +1,17 @@
 $( document ).ready(function() {
 
+    // light mode
+    document.onkeypress = function (e){
+        e = e || window.event;
+        if (e.keycode === 13){
+            document.documentElement.classList.toggle('dark-mode')
+
+            document.querySelectorAll('.invert').forEach((result) => {
+                result.classList.toggle('invert')
+            })
+        }
+    }
+
     // SHOW/HIDE PROJECTS
     $("#projects").on('click', function(){
        $('#projectCards').removeClass("is-hidden");
@@ -26,25 +38,25 @@ $( document ).ready(function() {
 
 });
 
+// JS FOR CAROUSEL
+// var carousels = bulmaCarousel.attach('.carousel', options);
 
-var carousels = bulmaCarousel.attach('.carousel', options);
+// // Loop on each carousel initialized
+// for(var i = 0; i < carousels.length; i++) {
+// 	// Add listener to  event
+// 	carousels[i].on('before:show', state => {
+// 		console.log(state);
+// 	});
+// }
 
-// Loop on each carousel initialized
-for(var i = 0; i < carousels.length; i++) {
-	// Add listener to  event
-	carousels[i].on('before:show', state => {
-		console.log(state);
-	});
-}
-
-// Access to bulmaCarousel instance of an element
-var element = document.querySelector('#my-element');
-if (element && element.bulmaCarousel) {
-	// bulmaCarousel instance is available as element.bulmaCarousel
-	element.bulmaCarousel.on('before-show', function(state) {
-		console.log(state);
-	});
-}
+// // Access to bulmaCarousel instance of an element
+// var element = document.querySelector('#my-element');
+// if (element && element.bulmaCarousel) {
+// 	// bulmaCarousel instance is available as element.bulmaCarousel
+// 	element.bulmaCarousel.on('before-show', function(state) {
+// 		console.log(state);
+// 	});
+// }
 
 
 // end script
