@@ -30,6 +30,13 @@ $(document).ready(function () {
 
     });
 
+    $("#thelab").on('click', function() {
+        $(".modal").addClass('is-active')
+    })
+    $(".modal-close").on('click' , function (){
+        $(".modal").toggleClass('is-active')
+    });
+
     // JS FOR CAROUSEL
 
     var carousels = bulmaCarousel.attach('.carousel', options);
