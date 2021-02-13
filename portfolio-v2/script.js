@@ -19,14 +19,6 @@ $( document ).ready(function() {
     $("#hideProjects").on('click', function(){
         $('#projectCards').addClass('is-hidden');
     })
-    // SHOW LANGUAGES
-    // $(".subtitle").on('click', function(){
-    //     $(".text").toggleClass("is-hidden")
-    // })
-    // $(".subtitle").on('click', function(){
-    //     $(".text").addClass("is-hidden")
-    // })
-
 
    // NAVBAR
   // Get all "navbar-burger" elements
