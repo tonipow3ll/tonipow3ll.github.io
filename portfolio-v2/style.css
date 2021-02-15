@@ -98,6 +98,16 @@ body > footer {
   }
 }
 
+/* STYLING FOR THE LAB */
+.cards{
+  
+  background-color: #3d4445;
+  color: #fafafb;
+}
+h1.title{
+  color: #fafafb;
+}
+
 @media (max-width: 900px){
   .columns.column{
     text-align: center;

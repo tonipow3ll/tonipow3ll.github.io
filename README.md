@@ -1,7 +1,7 @@
 # tonipow3ll.github.io
 # Hi, my name is Toni. 
 
-### I’m currently attending UNH's Coding Bootcamp, and learning HTML/CSS, Javascript, and learning MERN stack. 
+### I’m currently attending UNH's Coding Bootcamp, and learning HTML/CSS, Javascript, as well as learning MERN stack. 
 
 ### I am excited to continue learning, and hopefully join a team where I can grow my skills. 
 
