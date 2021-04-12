@@ -18,8 +18,10 @@ code {
 
 .t-card-image {
   border-radius: 10px;
-  width: 400px;
-  height: 580px;
+  /* width: 1500px;
+  height: 980px; */
+  width: 25%;
+  height: 100%;
   box-shadow: 0px 0px 3px 1px #ccc;
 }
 
