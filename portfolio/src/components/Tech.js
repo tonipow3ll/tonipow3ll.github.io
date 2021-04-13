@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';
+import heroku from '../assets/images/heroku.jpg';
 
 class Tech extends React.Component {
 
@@ -9,7 +10,16 @@ class Tech extends React.Component {
 
             <Container fluid={true}>
             <Row className="justify-content-around pr-5 pt-5">
-            {/* <img className="t-card-image" src={props.item.imgSrc} alt={props.item.imgSrc}/> */}
+            <img className="icons" src={heroku} alt=""/>
+            <img className="icons" src={heroku} alt=""/>
+            <img className="icons" src={heroku} alt=""/>
+            <img className="icons" src={heroku} alt=""/>
+            <img className="icons" src={heroku} alt=""/>
+            <img className="icons" src={heroku} alt=""/>
+            <img className="icons" src={heroku} alt=""/>
+            <img className="icons" src={heroku} alt=""/>
+            <img className="icons" src={heroku} alt=""/>
+            <img className="icons" src={heroku} alt=""/>
            <p>Tech Tech Tech</p>
            <p>Tech Tech Tech</p>
             </Row>
