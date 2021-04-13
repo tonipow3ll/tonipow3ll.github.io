@@ -6,9 +6,11 @@ function CardInfo(props) {
     return (
        <animated.div className="t-card-info" style={style}>
            <p className="t-card-title">{props.title}</p>
-           <p className="t-card-subtitle">{props.subtitle}</p>
+           <p className="t-card-subtitle">{props.subTitle}</p>
            <a href={props.link} target="_blank" rel="noopener noreferrer">Deployed App</a>
-           <a href={props.github} target="_blank" rel="noopener noreferrer">Code</a>
+          <br></br>
+          {/* <a href={props.link} target="_blank" rel="noopener noreferrer">Deployed App</a> */}
+          <a href={props.github} target="_blank" rel="noopener noreferrer">Code</a>
        </animated.div>
     );
 }

@@ -18,17 +18,17 @@ class Carousel extends React.Component {
                         title: 'Stretch n Strengthen', 
                         subTitle: 'THE Workout DB',
                         imgSrc: StretchnStrengthen,
-                        link: '',
-                        github: '',
+                        link: 'http://stretch-n-strengthen.herokuapp.com',
+                        github: 'https://github.com/crrmarchese/stretch-n-strengthen',
                         selected: false
                     },
                     {
                         id: 1, 
-                        title: 'Fake Blog', 
+                        title: 'Bookish-Happiness', 
                         subTitle: 'THE place to blog your thoughts',
                         imgSrc: TechBlog,
-                        link: '',
-                        github: '',
+                        link: 'http://bookish-happiness.herokuapp.com',
+                        github: 'https://github.com/tonipow3ll/bookish-happiness',
                         selected: false
                     },
                     {
@@ -36,8 +36,8 @@ class Carousel extends React.Component {
                         title: 'Weather App (Lite)', 
                         subTitle: 'THE only weather app you need... for todays weather only. ',
                         imgSrc: WeatherAppLite,
-                        link: '',
-                        github: '',
+                        link: 'https://tonipow3ll.github.io/Weather-App-Lite/',
+                        github: 'https://github.com/tonipow3ll/Weather-App-Lite',
                         selected: false
                     },
                 ]
