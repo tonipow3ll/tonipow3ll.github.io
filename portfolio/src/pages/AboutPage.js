@@ -8,11 +8,16 @@ function AboutPage(props) {
        <div>
            <Hero title={props.title} />
            <Content>
-           Bacon ipsum dolor amet drumstick swine boudin, prosciutto alcatra t-bone burgdoggen tail shoulder bacon turkey. Turducken tongue kielbasa porchetta t-bone jowl pork salami boudin corned beef. Chislic turkey doner tri-tip. Meatloaf turkey chuck, sausage cupim beef porchetta flank capicola pork loin jerky boudin chicken tongue tail. Porchetta brisket picanha pork belly short loin, strip steak burgdoggen tri-tip. Alcatra jowl short ribs pastrami, prosciutto ham hock tail porchetta ham burgdoggen chuck sirloin swine pork. Jowl corned beef brisket buffalo, short loin kevin capicola.
-
-Kevin porchetta pork chop, cow drumstick pastrami pig tri-tip kielbasa flank sirloin. Pancetta hamburger jowl pork chop, filet mignon swine ribeye landjaeger kevin short ribs turducken flank sausage shank andouille. Pork swine t-bone venison, ground round turkey beef ribs frankfurter bresaola sirloin jowl leberkas. Chuck capicola ground round, porchetta landjaeger tenderloin meatloaf t-bone ham pancetta tail pastrami.
-
-Turkey cupim shank pork belly porchetta tenderloin strip steak chicken kielbasa. Shankle shank pork chop ribeye alcatra. Porchetta drumstick capicola hamburger pastrami chislic tri-tip sirloin shank pork chop shankle sausage kielbasa beef ribs. Filet mignon pork burgdoggen, leberkas strip steak ground round alcatra meatball sausage shoulder picanha. Pig flank chislic pork chop meatloaf. Fatback t-bone pig shoulder bacon flank salami picanha drumstick.
+               <h3>Hi</h3>
+               <h4>Thanks for coming to my About Me Page!</h4>
+               <p>My name is Toni. I am a full stack developer from Weare, NH. </p>
+               <p>I am an adventurer, explorer, tinker-er. I enjoy creating code, as well as sometimes working on small engine mechanical projects (mostly suspension work).</p>
+               {/* <p>True Crime documentaries / podcasts are my biggest guilty pleasures. I will always love working out and staying active (Yoga, Running, Weight Lifting, Hiking). </p> */}
+               <p>I am currently attending the University of New Hampshire's 24 week Coding Bootcamp, and I am hoping to land a new position as a Junior Software Engineer, or Junior Developer by September 2021. </p>
+               <p>I completed my undergraduate studies in 2016, and earned my Bachelors of Fine Arts (Photography). I enjoy programming because it lets me scratch my 'creative itch', and just being able to make cool stuff on the web is.. well.. cool! </p>
+               <p>Feel free to check out my GitHub, for the most comprehensive list of projects that I have created, am working on creating, or have contributed to. Or feel free to check out my Projects page to see some completed projects I have done.</p>
+               <p>I can be a bit of an introvert at times - but I always love to hear from other developers, feel free to shoot me a message and start a conversation! I would love to chat!</p>
+       
            </Content>
        </div>
     );
