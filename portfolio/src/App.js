@@ -20,11 +20,12 @@ class App extends React.Component {
       headerLinks: [
         { title: 'Home', path: '/' },
         { title: 'About', path: '/about' },
-        { title: 'Contact', path: '/contact' }
+        { title: 'Contact', path: '/contact' },
+        // { title: 'Github', path: 'github.com/tonipow3ll' }
       ],
       home: {
         title: 'Always Learning',
-        subTitle: 'Some catchy phrase here',
+        subTitle: 'Full Stack Developer',
         text: 'Checkout my projects below'
       },
       about: {
@@ -50,6 +51,8 @@ class App extends React.Component {
                 <Link className="nav-link" to="/">Home</Link>
                 <Link className="nav-link" to="/about">About</Link>
                 <Link className="nav-link" to="/contact">Contact</Link>
+                <a className="nav-link" href="https://github.com/tonipow3ll" target="_blank">Github</a>
+                <a className="nav-link" href="https://www.linkedin.com/in/tonipowell13/" target="_blank">LinkedIn</a>
               </Nav>
             </Navbar.Collapse>
           </Navbar>

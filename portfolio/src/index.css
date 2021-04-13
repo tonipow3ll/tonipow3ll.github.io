@@ -26,8 +26,12 @@ code {
 }
 .icons{
   width: 5%;
-  height: 5%
+  height: 5%;
 }
+/* .footer-icons{
+  width: 50%;
+  height: 50%;
+} */
 
 .t-card-info {
  margin-top: 10px;

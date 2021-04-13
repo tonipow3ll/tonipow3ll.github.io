@@ -5,6 +5,7 @@ import Card from '../components/Card'
 import StretchnStrengthen from '../assets/images/StretchNStrengthen.png'
 import TechBlog from '../assets/images/TechBlog.png'
 import WeatherAppLite from '../assets/images/WeatherAppLite.png'
+import EasyRecipeazy from '../assets/images/EasyRecipeazy.png'
 
 class Carousel extends React.Component {
 
@@ -38,6 +39,15 @@ class Carousel extends React.Component {
                         imgSrc: WeatherAppLite,
                         link: 'https://tonipow3ll.github.io/Weather-App-Lite/',
                         github: 'https://github.com/tonipow3ll/Weather-App-Lite',
+                        selected: false
+                    },
+                    {
+                        id: 3, 
+                        title: 'Easy Recipeazy', 
+                        subTitle: 'THE best recipe app there is ',
+                        imgSrc: EasyRecipeazy,
+                        link: 'https://tonipow3ll.github.io/drinks-and-dinner/',
+                        github: 'https://github.com/tonipow3ll/drinks-and-dinner',
                         selected: false
                     },
                 ]
