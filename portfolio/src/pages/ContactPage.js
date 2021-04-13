@@ -93,7 +93,7 @@ class ContactPage extends React.Component {
                             <Form.Control id="message" name="message" as="textarea"rows="5" value={this.state.message} onChange={this.handleChange} />
                         </Form.Group>
 
-                    {/* CHANGE THE OL' BUTTON COLOR  */}
+           
                         <Button className="d-inline-block" variant="info" type="submit" disabled={this.state.disabled}>
                             Send Message
                         </Button>
