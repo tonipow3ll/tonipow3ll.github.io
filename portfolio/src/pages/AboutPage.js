@@ -18,4 +18,4 @@ Turkey cupim shank pork belly porchetta tenderloin strip steak chicken kielbasa.
     );
 }
 
-export default AboutPage
+export default AboutPage;

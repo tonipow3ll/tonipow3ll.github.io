@@ -40,7 +40,7 @@ class ContactPage extends React.Component {
 
         this.setState({
             disabled: true,
-            emailSent: false
+            // emailSent: false
         });
 
         // changed this from localhost/api, to just /api/email. may or may not work later. 
