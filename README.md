@@ -4,12 +4,6 @@
 # ![ScreenShot](https://user-images.githubusercontent.com/72999798/114718353-ea854f80-9d03-11eb-96be-cfd1675f4451.png)
 ### [View the Deployed Portfolio Here](https://tonipow3ll.github.io/)
 
-# Table of Contents
-### [Installation](#Installation)
-### [Technologies](#Technologies)
-### [Contributors](#Contributors)
-### [Contact](#Contact)
-### [Licenses](#Licenses)
 
 
 # Technologies
