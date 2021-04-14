@@ -7,6 +7,6 @@
 
 [View my Portfolio here](https://tonipow3ll.github.io/)
 
-#### 📫 Email: tonipow3ll@gmail.comm
+#### 📫 Email: tonipow3ll@gmail.com
 
 #### ⚡ If I am not coding, you can usually find me outside - riding my snowmobile or out exploring on my ATV depending on the season. 
