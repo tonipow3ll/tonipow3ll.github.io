@@ -13,11 +13,6 @@
 ### `NodeJS`  
 ### `NPM`  
 
-
-# Usage
-### This application was created by Toni Powell. Feel free to reach out via [email](tonipow3ll@gmail.com) or open up a GitHub issue, or pull request if there is something you would like to add. 
-
-
 # Contact/ General Questions:
 ### [LinkedIn](https://www.linkedin.com/in/tonipowell13/)
 ### [Email](tonipow3ll@gmail.com)
