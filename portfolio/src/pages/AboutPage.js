@@ -5,6 +5,7 @@ import { FaFile } from 'react-icons/fa';
 import { FaEnvelopeOpen } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { FaLinkedinIn } from 'react-icons/fa';
+import resume from '../assets/TPResume.pdf'
 
 // import Col from 'react-bootstrap/Col';
 // import Row from 'react-bootstrap/Row';
@@ -33,7 +34,8 @@ function AboutPage(props) {
             <br></br>
             Weare, NH
             <br></br>
-          <a href="https://docs.google.com/document/d/1hUfMsc9cZZ9qv7OElRUVu81KRxQAweR11xBAiz81edE/edit?usp=sharing" target="_blank"> Resume <FaFile /> </a> 
+            <a href={resume} target="_blank"> Resume <FaFile /> </a> 
+          {/* <a href="https://docs.google.com/document/d/1hUfMsc9cZZ9qv7OElRUVu81KRxQAweR11xBAiz81edE/edit?usp=sharing" target="_blank"> Resume <FaFile /> </a>  */}
             <br></br>
             <a href="mailto:tonipow3ll@gmail.com">Email <FaEnvelopeOpen /> </a> 
             <br></br>

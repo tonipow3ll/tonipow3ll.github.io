@@ -19,10 +19,6 @@ function Footer() {
                         <a href="mailto:tonipow3ll@gmail.com" ><FaEnvelopeOpen size={28} />  </a>
                         <a href="https://github.com/tonipow3ll" target="_blank"><FaGithub size={28} />  </a>
                         <a href="https://linkedin.com/in/tonipowell13" target="_blank"><FaLinkedinIn size={28} />  </a>
-
-                        {/* <img className="footer-icons" src={resume} alt={resume} /> */}
-                        {/* <a href="https://www.linkedin.com/in/tonipowell13" target="_blank"><img className="footer-icons" src={LinkedIn}  alt="linkedin icon."/></a> */}
-                        {/* <a href="https://www.linkedin.com/in/tonipowell13" target="_blank"><img className="footer-icons" src={Github}  alt="linkedin icon."/></a> */}
                     </Col>
                     <Col className="p-0 d-flex justify-content-end" md={3} >
                         Made with 🖤
