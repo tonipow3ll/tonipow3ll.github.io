@@ -12,6 +12,15 @@ code {
     monospace;
 }
 
+/* SCROLLING  */
+html {
+  scroll-behavior: smooth;
+}
+.projects{
+  /* background-color: #f4f0ed; */
+  color: #454646;
+}
+
 /* HEADER BACKGROUND // ARROW   */
 .bg-img {
   background-image: url(../src/assets/images/stones.jpeg);

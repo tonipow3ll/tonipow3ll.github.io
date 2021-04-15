@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Container, Row } from 'react-bootstrap';
+import { Container, Jumbotron, Row } from 'react-bootstrap';
 import Card from '../components/Card'
 import StretchnStrengthen from '../assets/images/StretchNStrengthen.png'
 import TechBlog from '../assets/images/TechBlog.png'
@@ -78,11 +78,15 @@ class Carousel extends React.Component {
         }
             render () {
                 return(
-                   <Container fluid={true}>
+                    <Jumbotron className="bg-transparent jumbotron-fluid p-0 ">
+
+                   <Container className="projects" fluid={true}>
+                       <h1 className="projects">Projects</h1>
                        <Row className="justify-content-around pr-5">
                         {this.makeItems(this.state.items)}
                        </Row>
                    </Container>
+                 </Jumbotron>
                 );
         }
     }

@@ -51,7 +51,7 @@ class App extends React.Component {
               <Nav className="ml-auto">
                 <Link className="nav-link" to="/">Home</Link>
                 <a className="nav-link" href="#about">About</a>
-                <Link className="nav-link" to="/contact">Contact</Link>
+                {/* <Link className="nav-link" to="/contact">Contact</Link> */}
                 <a className="nav-link" href="https://github.com/tonipow3ll" target="_blank">Github</a>
                 <a className="nav-link" href="https://www.linkedin.com/in/tonipowell13/" target="_blank">LinkedIn</a>
                 <a className="nav-link" href={resume} target="_blank">Resume</a>
@@ -61,7 +61,7 @@ class App extends React.Component {
 
            <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
           <Route path="/about" render={() => <AboutPage title={this.state.about.title} />} />
-          <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} />} /> 
+          {/* <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} />} />  */}
           
           <Footer /> 
 

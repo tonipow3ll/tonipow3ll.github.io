@@ -3,7 +3,21 @@ import { Container, Jumbotron, Row, Col } from 'react-bootstrap';
 // import { FaArrowDown } from 'react-icons/fa';
 import { FaAngleDoubleDown } from 'react-icons/fa'
 
+// import { animated } from 'react-spring';
+// function SomeComponent() {
+//   const [style, trigger] = useBoop({ y: 10 });
+//   return (
+//     <button onMouseEnter={trigger}>
+//       Show more
+//       <animated.span style={style}>
+//         <Icon icon="caret-down" />
+//       </animated.span>
+//     </button>
+//   );
+// }
+
 function Hero(props) {
+    // const [style, trigger] = useBoop({ y: 10 });
     return (
         <Jumbotron className="bg-transparent jumbotron-fluid p-0 bg-img ">
             <Container className="bg-photo">
