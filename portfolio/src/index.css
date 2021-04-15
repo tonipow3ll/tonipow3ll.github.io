@@ -11,6 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.bg-img {
+  background-image: url(../src/assets/images/stones.jpeg);
+  color: #454646;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+.jumbotron{
+  height: 100vh;
+}
+.bg-photo{
+  /* background-color: rgba(255, 255, 255, 0.3); */
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 10%;
+  height: 100vh;
+}
+
 .footer-link{ 
   color: #000 ;
 }
@@ -59,3 +77,8 @@ code {
   color: #ee6352;
   padding: 10px 15px;
 }
+.scrollArrow {
+  color: #454646; 
+}
+
+/* down arrow */

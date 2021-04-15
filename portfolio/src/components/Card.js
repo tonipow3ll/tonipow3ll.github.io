@@ -6,7 +6,7 @@ import CardInfo from '../components/CardInfo'
 function Card(props) {
     return (
         // on mouseOver, will need onMouseOut
-            <div className='col-sm-3 d-inline-block t-card'>
+            <div className='col-sm-3 d-inline-block t-card' id="projects">
                 {/* onClick={(e)=>props.click(props.item)} */}
                
                 <img className="t-card-image" src={props.item.imgSrc} alt={props.item.imgSrc} onMouseEnter={(e)=>props.click(props.item)} />

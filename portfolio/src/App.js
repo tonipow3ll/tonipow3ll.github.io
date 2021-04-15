@@ -9,6 +9,8 @@ import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
+import resume from '../src/assets/TPResume.pdf'
+
 
 
 class App extends React.Component {
@@ -23,9 +25,8 @@ class App extends React.Component {
         { title: 'Contact', path: '/contact' },
       ],
       home: {
-        title: 'Always Learning',
+        title: 'Toni Powell',
         subTitle: 'Full Stack Developer',
-        links: 'Quick Links',
         text: 'Checkout my projects below',
       },
       about: {
@@ -53,6 +54,7 @@ class App extends React.Component {
                 <Link className="nav-link" to="/contact">Contact</Link>
                 <a className="nav-link" href="https://github.com/tonipow3ll" target="_blank">Github</a>
                 <a className="nav-link" href="https://www.linkedin.com/in/tonipowell13/" target="_blank">LinkedIn</a>
+                <a className="nav-link" href={resume} target="_blank">Resume</a>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
