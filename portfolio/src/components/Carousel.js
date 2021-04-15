@@ -35,7 +35,7 @@ class Carousel extends React.Component {
                     {
                         id: 2, 
                         title: 'Weather App (Lite)', 
-                        subTitle: 'THE only weather app you need... for todays weather only. ',
+                        subTitle: 'THE only weather app you need... for todays weather only. *Created with OpenWeatherMap API*',
                         imgSrc: WeatherAppLite,
                         link: 'https://tonipow3ll.github.io/Weather-App-Lite/',
                         github: 'https://github.com/tonipow3ll/Weather-App-Lite',
@@ -44,7 +44,7 @@ class Carousel extends React.Component {
                     {
                         id: 3, 
                         title: 'Easy Recipeazy', 
-                        subTitle: 'THE best recipe app there is ',
+                        subTitle: 'THE best recipe (randomizer) app there is ',
                         imgSrc: EasyRecipeazy,
                         link: 'https://tonipow3ll.github.io/drinks-and-dinner/',
                         github: 'https://github.com/tonipow3ll/drinks-and-dinner',

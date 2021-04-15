@@ -21,12 +21,12 @@ class App extends React.Component {
         { title: 'Home', path: '/' },
         { title: 'About', path: '/about' },
         { title: 'Contact', path: '/contact' },
-        // { title: 'Github', path: 'github.com/tonipow3ll' }
       ],
       home: {
         title: 'Always Learning',
         subTitle: 'Full Stack Developer',
-        text: 'Checkout my projects below'
+        links: 'Quick Links',
+        text: 'Checkout my projects below',
       },
       about: {
         title: 'About Me'
