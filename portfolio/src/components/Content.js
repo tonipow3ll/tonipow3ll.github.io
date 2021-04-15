@@ -6,12 +6,13 @@ import Col from 'react-bootstrap/Col'
 function Content(props) {
 
     return (
-        <Container fluid={true}> 
-            <Row className="justify-content-center">
-                <Col md={8}>
+        <Container  className="justify-content-center" fluid={true}> 
+            {/* <Row className="justify-content-center">
+                <Col  > */}
+              {/* md={8} */}
                     {props.children}
-                </Col>
-            </Row>
+                {/* </Col>
+            </Row> */}
         </Container>
     );
 } 
