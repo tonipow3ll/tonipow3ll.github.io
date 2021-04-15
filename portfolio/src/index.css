@@ -11,8 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-a { 
-  color: #000 !important;
+.footer-link{ 
+  color: #000 ;
 }
 .t-card {
   margin: 20px;

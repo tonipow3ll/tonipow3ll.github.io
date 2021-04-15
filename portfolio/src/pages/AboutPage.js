@@ -20,7 +20,8 @@ function AboutPage(props) {
                <h3>Hi</h3>
                <h4>Thanks for coming to my About Me Page!</h4>
                <p>My name is Toni. I am a full stack developer from Weare, NH. </p>
-               <p>I am an adventurer, explorer, tinker-er. I enjoy creating code, as well as sometimes working on small engine mechanical projects (mostly suspension work).</p>
+               <p>I am an adventurer, explorer, tinker-er. I enjoy creating code (of course), as well as sometimes working on small engine mechanical projects (mostly suspension work), hiking with my dogs and husband, and exploring NH on my four wheeler or snowmobile. </p>
+               <p>On rainy or lazy days I enjoy watching true crime documentaries, or horror / comedy movies (Tucker and Dale vs Evil is a great example of a horror comedy mash up - would recommend)</p>
                <p>I am currently attending the University of New Hampshire's 24 week Coding Bootcamp, and I am hoping to land a new position as a Junior Software Engineer, or Junior Developer by September 2021. </p>
                <p>I completed my undergraduate studies in 2016, and earned my Bachelors of Fine Arts (Photography). I enjoy programming because it lets me scratch my 'creative itch', and just being able to make cool stuff on the web is.. well.. cool! </p>
                <p>Feel free to check out my GitHub, for the most comprehensive list of projects that I have created, am working on creating, or have contributed to. Or feel free to check out my Projects page to see some completed projects I have done.</p>
@@ -34,14 +35,14 @@ function AboutPage(props) {
             <br></br>
             Weare, NH
             <br></br>
-            <a href={resume} target="_blank"> Resume <FaFile /> </a> 
+            <a className="footer-link" href={resume} target="_blank"> Resume <FaFile /> </a> 
           {/* <a href="https://docs.google.com/document/d/1hUfMsc9cZZ9qv7OElRUVu81KRxQAweR11xBAiz81edE/edit?usp=sharing" target="_blank"> Resume <FaFile /> </a>  */}
             <br></br>
-            <a href="mailto:tonipow3ll@gmail.com">Email <FaEnvelopeOpen /> </a> 
+            <a className="footer-link" href="mailto:tonipow3ll@gmail.com">Email <FaEnvelopeOpen /> </a> 
             <br></br>
-            <a href="https://github.com/tonipow3ll" target="_blank">  Github <FaGithub /> </a> 
+            <a className="footer-link" href="https://github.com/tonipow3ll" target="_blank">  Github <FaGithub /> </a> 
             <br></br>
-            <a href="https://linkedin.com/in/tonipowell13" target="_blank">  LinkedIn <FaLinkedinIn /> </a> 
+            <a className="footer-link" href="https://linkedin.com/in/tonipowell13" target="_blank">  LinkedIn <FaLinkedinIn /> </a> 
             </p>
            </Content>
            

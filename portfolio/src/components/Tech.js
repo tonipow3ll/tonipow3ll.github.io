@@ -14,6 +14,7 @@ class Tech extends React.Component {
         return (
 
             <Container fluid={true}>
+                {/* <p>Tech Stacks I'm Familiar in</p> */}
             <Row className="justify-content-around pr-5 pt-5">
             <img className="icons" src={git} alt=""/>
             <img className="icons" src={node} alt=""/>
@@ -21,8 +22,7 @@ class Tech extends React.Component {
             <img className="icons" src={react} alt=""/>
             <img className="icons" src={sequelize} alt=""/>
             <img className="icons" src={heroku} alt=""/>
-           {/* <p>Tech Tech Tech</p>
-           <p>Tech Tech Tech</p> */}
+
             </Row>
         </Container>
 
