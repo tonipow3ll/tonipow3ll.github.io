@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.26ded728.chunk.css",
+    "main.js": "/static/js/main.d6f671f5.chunk.js",
+    "main.js.map": "/static/js/main.d6f671f5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2fdce26e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2fdce26e.js.map",
+    "static/css/2.ef9168ec.chunk.css": "/static/css/2.ef9168ec.chunk.css",
+    "static/js/2.9d09823d.chunk.js": "/static/js/2.9d09823d.chunk.js",
+    "static/js/2.9d09823d.chunk.js.map": "/static/js/2.9d09823d.chunk.js.map",
+    "static/js/3.a57398bc.chunk.js": "/static/js/3.a57398bc.chunk.js",
+    "static/js/3.a57398bc.chunk.js.map": "/static/js/3.a57398bc.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.ef9168ec.chunk.css.map": "/static/css/2.ef9168ec.chunk.css.map",
+    "static/css/main.26ded728.chunk.css.map": "/static/css/main.26ded728.chunk.css.map",
+    "static/js/2.9d09823d.chunk.js.LICENSE.txt": "/static/js/2.9d09823d.chunk.js.LICENSE.txt",
+    "static/media/EasyRecipeazy.4e651172.png": "/static/media/EasyRecipeazy.4e651172.png",
+    "static/media/Sequelize.e913927a.png": "/static/media/Sequelize.e913927a.png",
+    "static/media/StretchNStrengthen.e7c1b48b.png": "/static/media/StretchNStrengthen.e7c1b48b.png",
+    "static/media/TPResume.e07edcb4.pdf": "/static/media/TPResume.e07edcb4.pdf",
+    "static/media/WeatherAppLite.29b14d7b.png": "/static/media/WeatherAppLite.29b14d7b.png",
+    "static/media/react.9d57d608.jpg": "/static/media/react.9d57d608.jpg",
+    "static/media/index.css": "/static/media/stones.2f48236d.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2fdce26e.js",
+    "static/css/2.ef9168ec.chunk.css",
+    "static/js/2.9d09823d.chunk.js",
+    "static/css/main.26ded728.chunk.css",
+    "static/js/main.d6f671f5.chunk.js"
+  ]
+}
