@@ -40,7 +40,7 @@ function About(props) {
             <br></br>
             Weare, NH
             <br></br>
-              <a className="footer-link" href="mailto:tonipow3ll@gmail.com">Email <FaEnvelopeOpen /> </a>
+              <a className="footer-link projects" href="mailto:tonipow3ll@gmail.com">Email <FaEnvelopeOpen /> </a>
             </p>
           </Col>
         </Row>
