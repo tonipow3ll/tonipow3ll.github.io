@@ -1,0 +1,209 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* SCROLLING  */
+html {
+  scroll-behavior: smooth;
+}
+.projects{
+  /* background-color: #f4f0ed; */
+  color: #454646;
+}
+
+/* HEADER BACKGROUND // ARROW   */
+.bg-img {
+  background-image: url(../src/assets/images/stones.jpeg);
+  color: #454646;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+.jumbotron{
+  height: 100vh;
+  padding: 0 !important;
+  width: 100vw;
+}
+.bg-photo{
+  /* background-color: rgba(255, 255, 255, 0.3); */
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 10%;
+  height: 100vh;
+}
+
+.scrollArrow {
+  color: #454646; 
+}
+/* ABOUT BACKGROUND  */
+.about-img {
+  background-image: url(../src/assets/images/sky.jpeg);
+  color: #454646;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-photo{
+  /* background-color: rgba(255, 255, 255, 0.3); */
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 10%;
+  height: 100vh;
+  padding-top: 2rem;
+}
+/* CARD CONTENT  */
+.t-card {
+  margin: 20px;
+}
+
+.t-card-image {
+  border-radius: 10px;
+  width: 400px;
+  height: 220px;
+  box-shadow: 0px 0px 3px 1px #ccc;
+}
+.t-card-info {
+  margin-top: 10px;
+  min-height: 100px;
+ }
+ 
+ .t-card-title{
+   font-size: 24px;
+   margin: 0px;
+ }
+ 
+ .t-card-subtitle {
+   font-size: 16px;
+   margin: 0px;
+ }
+
+/* FOOTER */
+.footer-link{ 
+  color: #000 ;
+}
+.icons{
+  width: 5%;
+  height: 5%;
+}
+
+/* EMAIL FORM  */
+.success-msg{
+  color: #57a773;
+  padding: 10px 15px;
+}
+
+.error-msg{
+  color: #ee6352;
+  padding: 10px 15px;
+}
+
+
+  /*-------- MEDIA QUERIES --------*/
+/* Mobile Up to 768px */
+@media (max-width: 768px) {  
+  .jumbotron{
+    height: 100vh;
+    padding: 0 !important;
+    width: 100vw;
+  }
+
+}
+
+ /* Tablets 769px and 1023px */
+@media (min-width: 769px) { 
+  .jumbotron{
+    height: auto;
+    padding: 0 !important;
+    width: 100vw;
+  }
+  .about-img {
+    background-image: url(../src/assets/images/sky.jpeg);
+    color: #454646;
+    background-size: cover;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .about-photo{
+    /* background-color: rgba(255, 255, 255, 0.3); */
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 10%;
+    height: auto;
+    padding-top: 2rem;
+  }
+}
+@media (max-width: 900px){
+  .jumbotron{
+    height: auto;
+    padding: 0 !important;
+    width: 100vw;
+  }
+  .about-img {
+    background-image: url(../src/assets/images/sky.jpeg);
+    color: #454646;
+    background-size: cover;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .about-photo{
+    /* background-color: rgba(255, 255, 255, 0.3); */
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 10%;
+    height: auto;
+    padding-top: 2rem;
+  }
+}
+
+@media (max-width: 768px){
+  .jumbotron{
+    height: auto;
+    padding: 0 !important;
+    width: 100vw;
+  }
+  .about-img {
+    background-image: url(../src/assets/images/sky.jpeg);
+    color: #454646;
+    background-size: cover;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .about-photo{
+    /* background-color: rgba(255, 255, 255, 0.3); */
+    /* background-color: rgba(255, 255, 255, 0.7); */
+    width: 10%;
+    height: auto;
+    padding-top: 2rem;
+  }
+}
+
+
+ /* Desktops 1024px and 1215px) */
+ @media (min-width: 1024px) { 
+
+}
+
+/* Widescreen 1216px and 1407px) */
+@media (min-width: 1216px) { 
+  
+
+}
+
+/* Full HD 1408px and above) */
+@media (min-width: 1408px) { 
+ 
+}
