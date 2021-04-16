@@ -1,7 +1,7 @@
 # Portfolio 
 ### ![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)
-### This is my first React project, and my portfolio site. I would love to hear any feedback you may have on the portfolio itself, or any of the projects featured. Feel free to shoot me an email! *Please note - currently the email form on the portfolio page is not working, I am working on an update and should have it up soon!*
-# ![ScreenShot](https://user-images.githubusercontent.com/72999798/114718353-ea854f80-9d03-11eb-96be-cfd1675f4451.png)
+### This is my first React project, and my portfolio site. I would love to hear any feedback you may have on the portfolio itself, or any of the projects featured. Feel free to shoot me an email! 
+# ![ScreenShot](https://user-images.githubusercontent.com/72999798/115029178-b771c600-9e93-11eb-83e2-f031fcdf840b.png)
 ### [View the Deployed Portfolio Here](https://tonipow3ll.github.io/)
 
 
