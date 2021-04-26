@@ -9,7 +9,6 @@ function CardInfo(props) {
            <p className="t-card-subtitle">{props.subTitle}</p>
            <a href={props.link} target="_blank" rel="noopener noreferrer">Deployed App</a>
           <br></br>
-          {/* <a href={props.link} target="_blank" rel="noopener noreferrer">Deployed App</a> */}
           <a href={props.github} target="_blank" rel="noopener noreferrer">Code</a>
        </animated.div>
     );

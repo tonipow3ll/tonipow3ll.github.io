@@ -8,7 +8,13 @@ import sequelize from '../assets/images/Sequelize.png';
 import git from '../assets/images/git.jpg';
 
 class Tech extends React.Component {
-
+componentDidMount(){
+    console.log('component Mounted!')
+}
+componentWillUnmount() {
+    console.log('unmounted!')
+    //won't see this one 
+}
 
     render() {
         return (

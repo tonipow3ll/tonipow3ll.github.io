@@ -29,7 +29,7 @@ function Hero(props) {
                      {/* { props.text && <h3 className="lead font-weight-light">{props.text}</h3> } */}
                      { props.text && <h3 className="lead font-weight-light">{props.text}</h3> }
                     <a href="#projects" className="scrollArrow"> <FaAngleDoubleDown size={56} /> </a>
-                    <div class="arrow bounce"> </div>
+                    <div className="arrow bounce"> </div>
                     </Col>
                 </Row>
             </Container>

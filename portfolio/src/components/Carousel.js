@@ -6,6 +6,7 @@ import StretchnStrengthen from '../assets/images/StretchNStrengthen.png'
 import TechBlog from '../assets/images/TechBlog.png'
 import WeatherAppLite from '../assets/images/WeatherAppLite.png'
 import EasyRecipeazy from '../assets/images/EasyRecipeazy.png'
+import WeatherApp from '../assets/images/Weather-App.png'
 
 class Carousel extends React.Component {
 
@@ -16,29 +17,29 @@ class Carousel extends React.Component {
                 items: [
                     {
                         id: 0, 
-                        title: 'Stretch n Strengthen', 
-                        subTitle: 'THE Workout DB',
-                        imgSrc: StretchnStrengthen,
-                        link: 'http://stretch-n-strengthen.herokuapp.com',
-                        github: 'https://github.com/crrmarchese/stretch-n-strengthen',
+                        title: 'Weather Dashboard', 
+                        subTitle: 'THE Weather Dasbhoard',
+                        imgSrc: WeatherApp,
+                        link: 'https://www.tonipow3ll.com/Weather-App/',
+                        github: 'https://github.com/tonipow3ll/Weather-App',
                         selected: false
                     },
                     {
                         id: 1, 
-                        title: 'Bookish-Happiness', 
-                        subTitle: 'THE place to blog your thoughts',
-                        imgSrc: TechBlog,
-                        link: 'http://bookish-happiness.herokuapp.com',
-                        github: 'https://github.com/tonipow3ll/bookish-happiness',
-                        selected: false
-                    },
-                    {
-                        id: 2, 
                         title: 'Easy Recipeazy', 
                         subTitle: 'THE best recipe (randomizer) app there is ',
                         imgSrc: EasyRecipeazy,
                         link: 'https://tonipow3ll.github.io/drinks-and-dinner/',
                         github: 'https://github.com/tonipow3ll/drinks-and-dinner',
+                        selected: false
+                    },
+                    {
+                        id: 2, 
+                        title: 'Bookish-Happiness', 
+                        subTitle: 'THE place to blog your thoughts',
+                        imgSrc: TechBlog,
+                        link: 'http://bookish-happiness.herokuapp.com',
+                        github: 'https://github.com/tonipow3ll/bookish-happiness',
                         selected: false
                     },
                     {
@@ -50,6 +51,15 @@ class Carousel extends React.Component {
                         github: 'https://github.com/tonipow3ll/Weather-App-Lite',
                         selected: false
                     },
+                    {
+                        id: 4, 
+                        title: 'Stretch n Strengthen', 
+                        subTitle: 'THE Workout DB',
+                        imgSrc: StretchnStrengthen,
+                        link: 'http://stretch-n-strengthen.herokuapp.com',
+                        github: 'https://github.com/crrmarchese/stretch-n-strengthen',
+                        selected: false
+                    }
                 ]
             }
 

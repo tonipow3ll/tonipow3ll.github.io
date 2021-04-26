@@ -12,7 +12,8 @@ function Card(props) {
                 <img className="t-card-image" src={props.item.imgSrc} alt={props.item.imgSrc} onMouseEnter={(e)=>props.click(props.item)} />
                 { props.item.selected && <CardInfo title={props.item.title} subTitle={props.item.subTitle} link={props.item.link} github={props.item.github}/>}
                
-
+                {/* <img className="t-card-image" src={props.item.imgSrc} alt={props.item.imgSrc} onMouseEnter={(e)=>props.click(props.item)} />
+                { props.item.selected && <CardInfo title={props.item.title} subTitle={props.item.subTitle} link={props.item.link} github={props.item.github}/>} */}
          
    
     
