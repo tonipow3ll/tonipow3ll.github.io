@@ -4,6 +4,7 @@ import { Container, Jumbotron, Row } from 'react-bootstrap';
 import Card from '../components/Card'
 import StretchnStrengthen from '../assets/images/StretchNStrengthen.png'
 import TechBlog from '../assets/images/TechBlog.png'
+// import TechBlog from '../assets/images/TBAlt.png'
 import WeatherAppLite from '../assets/images/WeatherAppLite.png'
 import EasyRecipeazy from '../assets/images/EasyRecipeazy.png'
 import WeatherApp from '../assets/images/Weather-App.png'
