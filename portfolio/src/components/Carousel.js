@@ -19,7 +19,7 @@ class Carousel extends React.Component {
                     {
                         id: 0, 
                         title: 'Weather Dashboard', 
-                        subTitle: 'THE Weather Dasbhoard',
+                        subTitle: 'THE Weather Dasbhoard *Created with OpenWeatherMap API*',
                         imgSrc: WeatherApp,
                         link: 'https://www.tonipow3ll.com/Weather-App/',
                         github: 'https://github.com/tonipow3ll/Weather-App',

@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import { Container, Jumbotron, Row, Col } from 'react-bootstrap';
 // import { FaArrowDown } from 'react-icons/fa';
 import { FaAngleDoubleDown } from 'react-icons/fa'
@@ -28,7 +29,7 @@ function Hero(props) {
                      { props.subTitle && <h3 className="display-4 font-weight-light">{props.subTitle}</h3> }
                      {/* { props.text && <h3 className="lead font-weight-light">{props.text}</h3> } */}
                      { props.text && <h3 className="lead font-weight-light">{props.text}</h3> }
-                    <a href="#projects" className="scrollArrow"> <FaAngleDoubleDown size={56} /> </a>
+                    <a href="#projects" className="scrollArrow" smooth={true} duration={1000}> <FaAngleDoubleDown size={56} /> </a>
                     <div className="arrow bounce"> </div>
                     </Col>
                 </Row>

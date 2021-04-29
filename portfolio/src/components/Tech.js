@@ -1,36 +1,56 @@
 import React from 'react';
-import { Container, Row } from 'react-bootstrap';
-import heroku from '../assets/images/heroku.jpg';
-import mongo from '../assets/images/mongo.jpg';
-import node from '../assets/images/node.jpg';
-import react from '../assets/images/react.jpg';
-import sequelize from '../assets/images/Sequelize.png';
-import git from '../assets/images/git.jpg';
+import { Container, Row, Col } from 'react-bootstrap';
+import { FaReact, FaBootstrap, FaKey, FaServer, FaDatabase, FaJsSquare, FaCss3Alt, FaHtml5, FaCode, FaNodeJs, FaCodeBranch, FaObjectUngroup, FaAngular } from 'react-icons/fa';
 
 class Tech extends React.Component {
-componentDidMount(){
-    console.log('component Mounted!')
-}
-componentWillUnmount() {
-    console.log('unmounted!')
-    //won't see this one 
-}
 
     render() {
         return (
 
             <Container fluid={true}>
-                {/* <p>Tech Stacks I'm Familiar in</p> */}
-            <Row className="justify-content-around pr-5 pt-5">
-            <img className="icons" src={git} alt=""/>
-            <img className="icons" src={node} alt=""/>
-            <img className="icons" src={mongo} alt=""/>
-            <img className="icons" src={react} alt=""/>
-            <img className="icons" src={sequelize} alt=""/>
-            <img className="icons" src={heroku} alt=""/>
+                <Row className="justify-content-center text-center">
+                    <Col >
+                        <h1>Skills</h1>
+                        <ul>
+                            <li> <FaNodeJs />Node.js</li>
+                            <li> <FaDatabase />MySql</li>
+                            <li> <FaObjectUngroup />NoSql(Mongo)</li>
+                            <li> <FaJsSquare />Javascript</li>
+                            <li> <FaCss3Alt />CSS</li>
+                            <li> <FaHtml5 /> HTML5</li>
+                            <li> <FaKey />Passport</li>
+                            <li> <FaDatabase />Sequelize</li>
+                            <li> <FaCodeBranch />Mongoose</li>
+                            <li> <FaServer />Express</li>
+                            {/* <li> <FaCamera />Adobe Photoshop / Adobe Lightroom</li> */}
+                        </ul>
+                    </Col>
 
-            </Row>
-        </Container>
+                    <Col >
+                        <h1>Frameworks</h1>
+                        <ul>
+                            <li><FaReact />React</li>
+                            <li> <FaBootstrap />Bootstrap</li>
+                            <li> <FaCode />Bulma</li>
+                            <li> <FaCode />Materialize</li>
+                        </ul>
+                    </Col>
+
+                </Row>
+                <Row className="justify-content-center text-center">
+                    <Col >
+                        <h1>Learning</h1>
+                        <ul>
+                            <li> <FaJsSquare />TypeScript</li>
+                            <li> <FaAngular />Angular</li>
+                            <li> <FaKey />Authentication (JWT)</li>
+
+                        </ul>
+                    </Col>
+                </Row>
+
+
+            </Container>
 
         );
     }

@@ -4,6 +4,7 @@ import Hero from '../components/Hero'
 import Carousel from '../components/Carousel'
 import Tech from '../components/Tech'
 import About from '../components/About'
+import ScrollUpButton from '../components/Scroll'
 function HomePage(props) {
 
     return(
@@ -15,6 +16,10 @@ function HomePage(props) {
         <About />
 
         <Tech />
+
+        <ScrollUpButton 
+        AnimationDuration={500}
+        />
 
         </div>
     );
