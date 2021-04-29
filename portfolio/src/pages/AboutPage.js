@@ -1,32 +1,20 @@
 import React from 'react';
-// import Hero from './Hero';
+import Hero from '../components/Hero';
 import { Container, Jumbotron, Row, Col } from 'react-bootstrap';
-// import { Container, Row, Col } from 'react-bootstrap';
 import { FaReact, FaBootstrap, FaKey, FaServer, FaDatabase, FaJsSquare, FaCss3Alt, FaHtml5, FaCode, FaNodeJs, FaCodeBranch, FaObjectUngroup, FaAngular } from 'react-icons/fa';
 
-// import React from 'react';
-// import Content from '../components/Content';
-// import Hero from '../components/Hero';
-// import { FaFile } from 'react-icons/fa';
-// import { FaEnvelopeOpen } from 'react-icons/fa';
-// import { FaGithub } from 'react-icons/fa';
-// import { FaLinkedinIn } from 'react-icons/fa';
-// import resume from '../assets/TPResume.pdf'
-
-// import Col from 'react-bootstrap/Col';
-// import Row from 'react-bootstrap/Row';
 
 function AboutPage(props) {
 
     return (
         <div>
-            {/* <Hero title={props.title} /> */}
-                {/* className="about-img" */}
-            <Jumbotron className=" bg-transparent about-img jumbotron-fluid">
+            {/* <Hero title={props.title}/> */}
+            {/* className="about-img " */}
+            <Jumbotron  className="bg-transparent jumbotron-fluid">
                 {/* className="about-photo" */}
-                <Container className="about-photo">
-                    <Row className="justify-content-center">
-                        <Col md={8} sm={12}>
+                <Container>
+                    {/* <Row className="justify-content-center">
+                        <Col md={8} sm={12}> */}
 
                             <h3 id="about">About Me</h3>
                             <p>My name is Toni. I am a full stack developer from Weare, NH. </p>
@@ -46,12 +34,14 @@ function AboutPage(props) {
                                     <br></br>
                                 <a className="footer-link projects" href="mailto:tonipow3ll@gmail.com">tonipow3ll@gmail.com </a>
                             </p>
-                        </Col>
-                    </Row>
+                        {/* </Col>
+                    </Row> */}
                 </Container>
+                <div id="border"></div>
             </Jumbotron>
+        
 
-            <Container fluid={true}>
+            <Container className="" fluid={true}>
                 <Row className="justify-content-center text-center">
                     <Col >
                         <h1>Skills</h1>

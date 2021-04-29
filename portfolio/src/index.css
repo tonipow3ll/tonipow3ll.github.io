@@ -19,6 +19,13 @@ ul {
   padding: 0;
   margin: 0;
 }
+
+/* NAV */
+#brand{
+/* color: #00000080; */
+color: black;
+}
+
 /* SCROLLING  */
 html {
   scroll-behavior: smooth;
@@ -52,6 +59,10 @@ html {
   color: #454646; 
 }
 /* ABOUT BACKGROUND  */
+
+.about-bg2{
+  background-color: #bbbcbc;
+}
 .about-img {
   background-image: url(../src/assets/images/sky.jpeg);
   color: #454646;
@@ -67,6 +78,10 @@ html {
   width: auto;
   height: 100vh;
   padding-top: 2rem;
+}
+
+#border{
+  border-style: solid;
 }
 /* CARD CONTENT  */
 .t-card {
