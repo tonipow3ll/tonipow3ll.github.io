@@ -19,7 +19,7 @@ class Carousel extends React.Component {
                     {
                         id: 0, 
                         title: 'Weather Dashboard', 
-                        subTitle: 'THE Weather Dasbhoard *Created with OpenWeatherMap API*',
+                        subTitle: 'A simple weather application, users can search for a city, and see previously searched cities. Current day forecast as well as 5 day forecast will populate. Made with the Open Weather Map API',
                         imgSrc: WeatherApp,
                         link: 'https://www.tonipow3ll.com/Weather-App/',
                         github: 'https://github.com/tonipow3ll/Weather-App',
@@ -28,7 +28,7 @@ class Carousel extends React.Component {
                     {
                         id: 1, 
                         title: 'Easy Recipeazy', 
-                        subTitle: 'THE best recipe (randomizer) app there is ',
+                        subTitle: 'A recipe randomizer app. Users can select ingredients and see recipes populated with those specific ingredients. ',
                         imgSrc: EasyRecipeazy,
                         link: 'https://tonipow3ll.github.io/drinks-and-dinner/',
                         github: 'https://github.com/tonipow3ll/drinks-and-dinner',
@@ -37,7 +37,7 @@ class Carousel extends React.Component {
                     {
                         id: 2, 
                         title: 'Bookish-Happiness', 
-                        subTitle: 'THE place to blog your thoughts',
+                        subTitle: `A simple "blog" application. This was made mostly for fun - and to experiment with Passport, as well as MongoDB/Mongoose, and Handlebars.`,
                         imgSrc: TechBlog,
                         link: 'http://bookish-happiness.herokuapp.com',
                         github: 'https://github.com/tonipow3ll/bookish-happiness',
@@ -46,7 +46,7 @@ class Carousel extends React.Component {
                     {
                         id: 3, 
                         title: 'Weather App (Lite)', 
-                        subTitle: 'THE only weather app you need... for todays weather only. *Created with OpenWeatherMap API*',
+                        subTitle: 'A simplified version of the Weather Dashboard - with this application users can load the page, and see weather data based on their current location (if location services are turned on / accepted), or enter in a city and see current weather data for that city.',
                         imgSrc: WeatherAppLite,
                         link: 'https://tonipow3ll.github.io/Weather-App-Lite/',
                         github: 'https://github.com/tonipow3ll/Weather-App-Lite',
@@ -55,7 +55,7 @@ class Carousel extends React.Component {
                     {
                         id: 4, 
                         title: 'Stretch n Strengthen', 
-                        subTitle: 'THE Workout DB',
+                        subTitle: 'An application that allows users to view different exercises based on body parts, as well as create an account and save specific routines to their profile.',
                         imgSrc: StretchnStrengthen,
                         link: 'http://stretch-n-strengthen.herokuapp.com',
                         github: 'https://github.com/crrmarchese/stretch-n-strengthen',

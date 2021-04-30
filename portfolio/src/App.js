@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import resume from '../src/assets/TPResume.pdf'
+// import TheLab from './pages/TheLab';
 
 
 
@@ -46,9 +47,10 @@ class App extends React.Component {
               <Nav className="ml-auto">
                 <Link className="nav-link" to="/">Home</Link>
                 <Link className="nav-link" to="/about">About</Link>
+                {/* <Link className="nav-link" to="/thelab">The Lab</Link> */}
                 {/* <a className="nav-link" href="#about" smooth={true} duration={1000}>About</a> */}
-                <a className="nav-link" href="https://github.com/tonipow3ll" target="_blank">Github</a>
-                <a className="nav-link" href="https://www.linkedin.com/in/tonipowell13/" target="_blank">LinkedIn</a>
+                <a className="nav-link" href="https://github.com/tonipow3ll" target="_blank" rel="noopener noreferrer">Github</a>
+                <a className="nav-link" href="https://www.linkedin.com/in/tonipowell13/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                 <a className="nav-link" href={resume} target="_blank">Resume</a>
               </Nav>
             </Navbar.Collapse>
@@ -58,6 +60,7 @@ class App extends React.Component {
           <Route path="/about" render={() => <AboutPage title={this.state.about.title} />} /> */}
             <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
           <Route path="/about" render={() => <AboutPage title={this.state.about.title} />} />
+          {/* <Route path="/thelab" render={() => <TheLab />} /> */}
       
              
           <Footer />
