@@ -1,6 +1,6 @@
 import { React, useState } from 'react';
 import CardInfo from '../components/CardInfo'
-import { Button, Modal } from 'react-bootstrap'
+import { Modal } from 'react-bootstrap'
 
 function Card(props) {
 
@@ -14,21 +14,23 @@ return (
 
   <a href={props.item.link} target="_blank" rel="noopener noreferrer"> <img className="t-card-image" src={props.item.imgSrc} alt={props.item.imgSrc} /></a> 
 
-    <Button className="my-3" variant="dark" onClick={handleShow}>{props.item.title}</Button>
+    <button className="my-3" className="btn btn-dark" onClick={handleShow}>{props.item.title}</button>
     <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
             <Modal.Title>{props.item.title}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
+            
             <p>{props.item.subTitle}</p>
             <a href={props.item.link} target="_blank" rel="noopener noreferrer">View The Deployed Application</a>
             <br></br> 
             <a href={props.item.github} target="_blank" rel="noopener noreferrer">View Code</a> 
             </Modal.Body>
         <Modal.Footer>
-            <Button variant="dark" onClick={handleClose}>
+            {/* <Button variant="dark" onClick={handleClose}>
                 Close
-            </Button>
+            </Button> */}
+            <p>Made with 🖤 by TP</p>
         </Modal.Footer>
     </Modal>
     {/* { props.item.selected && <ProjCardInfo title={props.item.title} subTitle={props.item.subTitle} link={props.item.link} github={props.item.github} />} */}

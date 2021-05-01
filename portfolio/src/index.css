@@ -12,6 +12,9 @@ code {
     monospace;
 }
 
+.btn.btn-dark{
+  border-radius: 5rem;
+}
 /* LIST WITHOUT BULLETS */
 
 ul {
