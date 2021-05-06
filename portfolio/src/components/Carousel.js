@@ -1,13 +1,14 @@
 import React from 'react';
 
 import { Container, Jumbotron, Row } from 'react-bootstrap';
-import Card from '../components/Card'
-import StretchnStrengthen from '../assets/images/StretchNStrengthen.png'
-import TechBlog from '../assets/images/TechBlog.png'
+import Card from '../components/Card';
+import StretchnStrengthen from '../assets/images/StretchNStrengthen.png';
+import TechBlog from '../assets/images/TechBlog.png';
 // import TechBlog from '../assets/images/TBAlt.png'
-import WeatherAppLite from '../assets/images/WeatherAppLite.png'
-import EasyRecipeazy from '../assets/images/EasyRecipeazy.png'
-import WeatherApp from '../assets/images/Weather-App.png'
+import WeatherAppLite from '../assets/images/WeatherAppLite.png';
+import EasyRecipeazy from '../assets/images/EasyRecipeazy.png';
+import WeatherApp from '../assets/images/Weather-App.png';
+import Pupster from '../assets/images/Pupster.png';
 
 class Carousel extends React.Component {
 
@@ -27,6 +28,15 @@ class Carousel extends React.Component {
                     },
                     {
                         id: 1, 
+                        title: 'Pupster', 
+                        subTitle: 'The dog app',
+                        imgSrc: Pupster,
+                        link: '',
+                        github: '',
+                        selected: false
+                    },
+                    {
+                        id: 2, 
                         title: 'Easy Recipeazy', 
                         subTitle: 'A recipe randomizer app. Users can select ingredients and see recipes populated with those specific ingredients. ',
                         imgSrc: EasyRecipeazy,
@@ -35,7 +45,7 @@ class Carousel extends React.Component {
                         selected: false
                     },
                     {
-                        id: 2, 
+                        id: 3, 
                         title: 'Bookish-Happiness', 
                         subTitle: `A simple "blog" application. This was made mostly for fun - and to experiment with Passport, as well as MongoDB/Mongoose, and Handlebars.`,
                         imgSrc: TechBlog,
@@ -44,7 +54,7 @@ class Carousel extends React.Component {
                         selected: false
                     },
                     {
-                        id: 3, 
+                        id: 4, 
                         title: 'Weather App (Lite)', 
                         subTitle: 'A simplified version of the Weather Dashboard - with this application users can load the page, and see weather data based on their current location (if location services are turned on / accepted), or enter in a city and see current weather data for that city.',
                         imgSrc: WeatherAppLite,
@@ -53,7 +63,7 @@ class Carousel extends React.Component {
                         selected: false
                     },
                     {
-                        id: 4, 
+                        id: 5, 
                         title: 'Stretch n Strengthen', 
                         subTitle: 'An application that allows users to view different exercises based on body parts, as well as create an account and save specific routines to their profile.',
                         imgSrc: StretchnStrengthen,

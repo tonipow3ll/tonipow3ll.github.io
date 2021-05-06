@@ -16,10 +16,10 @@ function Footer() {
                 <Row className="border-top justify-content-between p-3">
                     <Col className="p-0" md={3} sm={12}>
 
-                        <a className="footer-link" href={resume} target="_blank"> <FaFile size={28} /> </a> 
-                        <a className="footer-link" href="mailto:tonipow3ll@gmail.com" ><FaEnvelopeOpen size={28} />  </a>
+                        <a className="footer-link" href={resume} target="_blank" rel="noopener noreferrer"> <FaFile size={28} /> </a> 
+                        <a className="footer-link" href="mailto:tonipow3ll@gmail.com" rel="noopener noreferrer" ><FaEnvelopeOpen size={28} />  </a>
                         <a className="footer-link"  href="https://github.com/tonipow3ll" target="_blank"><FaGithub size={28} />  </a>
-                        <a className="footer-link" href="https://linkedin.com/in/tonipowell13" target="_blank"><FaLinkedinIn size={28} />  </a>
+                        <a className="footer-link" href="https://linkedin.com/in/tonipowell13" target="_blank" rel="noopener noreferrer"><FaLinkedinIn size={28} />  </a>
                     </Col>
                     <Col className="p-0 d-flex justify-content-end" md={3} >
                         Made with 🖤
