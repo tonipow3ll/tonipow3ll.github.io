@@ -1,7 +1,8 @@
 import { React, useState } from 'react';
 import CardInfo from '../components/CardInfo'
 import { Modal } from 'react-bootstrap'
-import { FaExternalLinkAlt }from 'react-icons/fa'
+import { useSpring, animated } from 'react-spring';
+import { FaExternalLinkAlt } from 'react-icons/fa'
 
 function Card(props) {
 
@@ -9,32 +10,33 @@ function Card(props) {
 
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
-return (
-    <div className='col-sm-3 d-inline-block t-card' id="projects">
-    {/* onMouseEnter={(e)=>props.click(props.item)} */}
+    const style = useSpring({ opacity: 1, from: { opacity: 0 } });
+    return (
+        <animated.div className='col-sm-3 d-inline-block t-card' id="projects" style={style}>
 
-  <a href={props.item.link} target="_blank" rel="noopener noreferrer"> <img className="t-card-image" src={props.item.imgSrc} alt={props.item.imgSrc} /></a> 
 
-    <button className="btn btn-dark mt-2" onClick={handleShow}>{props.item.title} <FaExternalLinkAlt /></button>
-    <Modal show={show} onHide={handleClose}>
-        <Modal.Header closeButton>
-            <Modal.Title>{props.item.title}</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-            
-            <p>{props.item.subTitle}</p>
-            <a href={props.item.link} target="_blank" rel="noopener noreferrer">View The Deployed Application</a>
-            <br></br> 
-            <a href={props.item.github} target="_blank" rel="noopener noreferrer">View Code</a> 
-            </Modal.Body>
-        <Modal.Footer>
-            <p>Made with 🖤 by TP</p>
-        </Modal.Footer>
-    </Modal>
-    
-</div>
+            <a href={props.item.link} target="_blank" rel="noopener noreferrer"> <img className="t-card-image" src={props.item.imgSrc} alt={props.item.imgSrc} /></a>
+
+            <button className="btn btn-dark mt-2" onClick={handleShow}>{props.item.title} <FaExternalLinkAlt /></button>
+            <Modal show={show} onHide={handleClose}>
+                <Modal.Header closeButton>
+                    <Modal.Title>{props.item.title}</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+
+                    <p>{props.item.subTitle}</p>
+                    <a href={props.item.link} target="_blank" rel="noopener noreferrer">View The Deployed Application</a>
+                    <br></br>
+                    <a href={props.item.github} target="_blank" rel="noopener noreferrer">View Code</a>
+                </Modal.Body>
+                <Modal.Footer>
+                    <p>Made with 🖤 by TP</p>
+                </Modal.Footer>
+            </Modal>
+        </animated.div>
+
     )
 }
 
-export default Card; 
+export default Card;
 

@@ -13,14 +13,17 @@ function Hero(props) {
                     <Col md={8} sm={12}>
                         {props.title && <h1 className="display-1 font-weight-bolder">{props.title}</h1>}
                         {props.subTitle && <h3 className="display-4 font-weight-light">{props.subTitle}</h3>}
-                        {props.text && <h3 className="lead font-weight-light">{props.text}</h3>}
+                        
                         
                         {/* <Link href="#projects" className="scrollArrow" smooth={true} duration={1000}> <FaAngleDoubleDown size={56} /> </Link> */}
                     </Col>
                 </Row>
-                <div class="arrow bounce">
                             {/* <p className="arrow" href="#"> */}
                              {/* <Link>    */}
+                             <div className="arrow">
+                             {props.text && <h3 className="lead font-weight-light">{props.text}</h3>}
+                             </div>
+                                <div class="arrow bounce">
                              <FaArrowDown className="arrow" size={56} /> 
                              {/* </Link> */}
                              {/* <Route path="/projects" render={() => <Projects />} /> */}
