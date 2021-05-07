@@ -17,7 +17,7 @@ function Card(props) {
 
             <a href={props.item.link} target="_blank" rel="noopener noreferrer"> <img className="t-card-image" src={props.item.imgSrc} alt={props.item.imgSrc} /></a>
 
-            <button className="btn btn-dark mt-2" onClick={handleShow}>{props.item.title} <FaExternalLinkAlt /></button>
+            <button className="btn btn-dark mt-2" onClick={handleShow}>{props.item.title} <FaExternalLinkAlt size={14} /></button>
             <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
                     <Modal.Title>{props.item.title}</Modal.Title>

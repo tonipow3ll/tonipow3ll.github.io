@@ -28,15 +28,6 @@ class Carousel extends React.Component {
                     },
                     {
                         id: 1, 
-                        title: 'Pupster', 
-                        subTitle: 'The dog app',
-                        imgSrc: Pupster,
-                        link: '',
-                        github: '',
-                        selected: false
-                    },
-                    {
-                        id: 2, 
                         title: 'Easy Recipeazy', 
                         subTitle: 'A recipe randomizer app. Users can select ingredients and see recipes populated with those specific ingredients. ',
                         imgSrc: EasyRecipeazy,
@@ -45,12 +36,21 @@ class Carousel extends React.Component {
                         selected: false
                     },
                     {
-                        id: 3, 
+                        id: 2, 
                         title: 'Bookish-Happiness', 
                         subTitle: `A simple "blog" application. This was made mostly for fun - and to experiment with Passport, as well as MongoDB/Mongoose, and Handlebars.`,
                         imgSrc: TechBlog,
                         link: 'http://bookish-happiness.herokuapp.com',
                         github: 'https://github.com/tonipow3ll/bookish-happiness',
+                        selected: false
+                    },
+                    {
+                        id: 3, 
+                        title: 'Pupster', 
+                        subTitle: 'The dog app',
+                        imgSrc: Pupster,
+                        link: '',
+                        github: '',
                         selected: false
                     },
                     {
