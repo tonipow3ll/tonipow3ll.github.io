@@ -46,10 +46,10 @@ class Carousel extends React.Component {
                     {
                         id: 3, 
                         title: 'Pupster', 
-                        subTitle: 'The dog app',
+                        subTitle: 'A simple application that allows users to search for different dog photos based on breed, or randomly. ',
                         imgSrc: Pupster,
-                        link: '',
-                        github: '',
+                        link: 'https://www.tonipow3ll.com/pupster/',
+                        github: 'https://github.com/tonipow3ll/pupster',
                         selected: false
                     },
                     {
