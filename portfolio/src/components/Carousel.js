@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Container, Jumbotron, Row, Col } from 'react-bootstrap';
+import { Container, Jumbotron, Row } from 'react-bootstrap';
 import Card from '../components/Card';
 import StretchnStrengthen from '../assets/images/StretchNStrengthen.png';
 import TechBlog from '../assets/images/TechBlog.png';
@@ -103,9 +103,9 @@ class Carousel extends React.Component {
                    <Container className="projects" fluid={true}>
                        <h1 className="projects">Projects</h1>
                        <Row className="justify-content-around pr-5 mr-5">
-                           <Col>
+                           
                         {this.makeItems(this.state.items)}
-                        </Col>
+                        
                        </Row>
                    </Container>
                  </Jumbotron>
