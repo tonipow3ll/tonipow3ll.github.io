@@ -1,5 +1,4 @@
 import { React, useState } from 'react';
-import CardInfo from '../components/CardInfo'
 import { Modal } from 'react-bootstrap'
 import { useSpring, animated } from 'react-spring';
 import { FaExternalLinkAlt } from 'react-icons/fa'

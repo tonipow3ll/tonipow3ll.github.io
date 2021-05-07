@@ -51,7 +51,7 @@ class App extends React.Component {
                 {/* <a className="nav-link" href="#about" smooth={true} duration={1000}>About</a> */}
                 <a className="nav-link" href="https://github.com/tonipow3ll" target="_blank" rel="noopener noreferrer">Github</a>
                 <a className="nav-link" href="https://www.linkedin.com/in/tonipowell13/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                <a className="nav-link" href={resume} target="_blank">Resume</a>
+                <a className="nav-link" href={resume} target="_blank" rel="noopener noreferrer">Resume</a>
               </Nav>
             </Navbar.Collapse>
           </Navbar>

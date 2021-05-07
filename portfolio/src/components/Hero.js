@@ -1,7 +1,7 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+// import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import { Container, Jumbotron, Row, Col } from 'react-bootstrap';
-import { FaAngleDoubleDown, FaArrowDown } from 'react-icons/fa'
+import {  FaArrowDown } from 'react-icons/fa'
 
 
 function Hero(props) {
@@ -23,7 +23,7 @@ function Hero(props) {
                              <div className="arrow">
                              {/* {props.text && <h3 className="lead font-weight-light">{props.text}</h3>} */}
                              </div>
-                                <div class="arrow bounce">
+                                <div className="arrow bounce">
                              <FaArrowDown className="arrow" size={56} /> 
                              {/* </Link> */}
                              {/* <Route path="/projects" render={() => <Projects />} /> */}

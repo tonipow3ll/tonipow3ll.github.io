@@ -1,22 +1,20 @@
 import React from 'react';
-import Hero from '../components/Hero';
 import Headshot from '../assets/images/headshot.JPG'
 import Abel from '../assets/images/Abel.jpg'
 import Boston from '../assets/images/Boston.jpg'
 import { Container, Jumbotron, Row, Col } from 'react-bootstrap';
-import { FaReact, FaBootstrap, FaKey, FaServer, FaDatabase, FaJsSquare, FaCss3Alt, FaHtml5, FaCode, FaNodeJs, FaCodeBranch, FaObjectUngroup, FaAngular } from 'react-icons/fa';
+import { FaReact, FaBootstrap, FaKey, FaServer, FaDatabase, FaJsSquare, FaCss3Alt, FaHtml5, FaCode, FaNodeJs, FaCodeBranch, FaObjectUngroup } from 'react-icons/fa';
 
 
 function AboutPage(props) {
 
     return (
         <div>
-            {/* <Hero title={props.title}/> */}
-            {/* className="about-img " */}
+           
             <Jumbotron  className="bg-transparent jumbotron-fluid">
-                {/* className="about-photo" */}
+            
                 <Container  >
-                    {/* className="justify-content-center" */}
+                
                     <Row className="justify-content-center" >
                         <Col lg={8}>
 
@@ -29,7 +27,7 @@ function AboutPage(props) {
                             <p> I always love to hear from other developers, feel free to shoot me a message and start a conversation! I would love to chat!</p>
 
                             <p>Best,</p>
-                            <h3></h3>
+                           
                             <h3>Toni Powell</h3>
                             <p>
                                 Developer, Discoverer, Dogmom
@@ -45,14 +43,13 @@ function AboutPage(props) {
                         <img className="headshot py-3" src={Boston}></img>
                         </Col>
                     </Row>
-                    {/* <Row> */}
-                    {/* </Row> */}
+                   
                 </Container>
                 <div id="border"></div>
             </Jumbotron>
         
 
-            <Container className="" fluid={true}>
+            <Container fluid={true}>
                 <Row className="justify-content-center text-center">
                     <Col >
                         <h1>Skills</h1>
