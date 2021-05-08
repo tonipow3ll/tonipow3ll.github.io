@@ -14,6 +14,9 @@ code {
 /* arrow */
 /* .arrow { color: white; text-decoration: none; } */
 
+.card {
+  border-style: none !important;
+}
 .arrow {
   color: #454646;
   text-align: center;
@@ -95,7 +98,7 @@ html {
   background-color: #bbbcbc;
 }
 .about-img {
-  background-image: url(../src/assets/images/sky.jpeg);
+
   color: #454646;
   background-size: cover;
   height: 100vh;
@@ -104,7 +107,7 @@ html {
 }
 
 .about-photo{
-  /* background-color: rgba(255, 255, 255, 0.3); */
+ 
   background-color: rgba(255, 255, 255, 0.7);
   width: auto;
   height: 100vh;
@@ -180,7 +183,7 @@ html {
     width: 100vw;
   }
   .about-img {
-    background-image: url(../src/assets/images/sky.jpeg);
+   
     color: #454646;
     background-size: cover;
     height: auto;
@@ -189,7 +192,7 @@ html {
   }
   
   .about-photo{
-    /* background-color: rgba(255, 255, 255, 0.3); */
+  
     background-color: rgba(255, 255, 255, 0.7);
     width: auto;
     height: auto;
@@ -203,7 +206,7 @@ html {
     width: 100vw;
   }
   .about-img {
-    background-image: url(../src/assets/images/sky.jpeg);
+  
     color: #454646;
     background-size: cover;
     height: auto;
@@ -227,7 +230,7 @@ html {
     width: 100vw;
   }
   .about-img {
-    background-image: url(../src/assets/images/sky.jpeg);
+
     color: #454646;
     background-size: cover;
     height: auto;
@@ -236,8 +239,7 @@ html {
   }
   
   .about-photo{
-    /* background-color: rgba(255, 255, 255, 0.3); */
-    /* background-color: rgba(255, 255, 255, 0.7); */
+ 
     width: auto;
     height: auto;
     padding-top: 2rem;

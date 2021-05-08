@@ -1,13 +1,13 @@
 import React from 'react';
 
-import { Container, Jumbotron, Row } from 'react-bootstrap';
-import Card from '../components/Card';
+import { Container, Jumbotron, Row, Card } from 'react-bootstrap';
+import Cards from '../components/Cards'
 import StretchnStrengthen from '../assets/images/StretchNStrengthen.png';
 import TechBlog from '../assets/images/TechBlog.png';
 import WeatherAppLite from '../assets/images/WeatherAppLite.png';
 import EasyRecipeazy from '../assets/images/EasyRecipeazy.png';
 import WeatherApp from '../assets/images/Weather-App.png';
-import Pupster from '../assets/images/Pupster.png';
+import Pupster from '../assets/images/Pupster3.png';
 
 class Carousel extends React.Component {
 
@@ -75,7 +75,7 @@ class Carousel extends React.Component {
 
         } 
 
-        handleCardClick = (id, card) => {
+        handleCardClick = (id, cards) => {
             let items = [...this.state.items]
 
             items[id].selected = items[id].selected ? false : true
@@ -93,18 +93,21 @@ class Carousel extends React.Component {
 
         makeItems = (items) => {
             return items.map(item => {
-                return <Card item={item} click={(e => this.handleCardClick(item.id, e))} key={item.id}/>
+                return <Cards item={item} click={(e => this.handleCardClick(item.id, e))} key={item.id}/>
             })
         }
             render () {
                 return(
-                    <Jumbotron className="bg-transparent jumbotron-fluid p-0 ">
+                    <Jumbotron className="bg-transparent jumbotron-fluid p-0 text-center">
 
-                   <Container className="projects" fluid={true}>
+                   <Container className="projects text-center" fluid={true}>
                        <h1 className="projects">Projects</h1>
                        <Row className="justify-content-around pr-5 mr-5">
-                           
-                        {this.makeItems(this.state.items)}
+                          
+
+                                {this.makeItems(this.state.items)}
+                              
+                      
                         
                        </Row>
                    </Container>
