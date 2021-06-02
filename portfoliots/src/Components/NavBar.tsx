@@ -29,9 +29,9 @@ const useStyles = makeStyles((theme: Theme) => createStyles({
         borderBottomWidth: `2px`,
         borderLeftWidth: `2px`,
         borderRightWidth: `2px`,
-        borderColor: `#181D27`,
-        borderBottomLeftRadius: 16,
-        borderBottomRightRadius: 16,
+        borderColor: `transparent`,
+        // borderBottomLeftRadius: 16,
+        // borderBottomRightRadius: 16,
         border: `solid`,
         height: `75px`,
         justifyContent: `center`
@@ -53,8 +53,8 @@ const useStyles = makeStyles((theme: Theme) => createStyles({
     links: {
         margin: `5px`,
         padding: `5px`,
-        color: theme.palette.primary.main,
-        backgroundColor: `rgba(255,255,255,0.6)`,
+        // color: theme.palette.primary.main,
+        // backgroundColor: `rgba(255,255,255,0.6)`,
         width: `100%`,
         fontSize: `1.2rem`,
         alignContent: `center`
@@ -120,7 +120,7 @@ const NavBar: React.FC = (): JSX.Element => {
                     }}
                     className={classes.mobileNav}
                 >
-                    <MenuIcon />
+                    <MenuIcon className={classes.linkText}/>
                 </IconButton>
                 <Drawer
                     {...{
@@ -136,7 +136,7 @@ const NavBar: React.FC = (): JSX.Element => {
                         </MenuItem>
                         <MenuItem className={classes.mobileNav}>
                             <Link className={classes.links} to="/about">About</Link>
-                            <Link className={classes.links} to="/Projects">About</Link>
+                            <Link className={classes.links} to="/Projects">Projects</Link>
                         </MenuItem>
                     </List>
                 </Drawer>

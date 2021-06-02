@@ -1,13 +1,48 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import { BrowserRouter as Router } from "react-router-dom";
+import { ThemeProvider } from "@material-ui/core";
+import { createMuiTheme, responsiveFontSizes, Theme } from "@material-ui/core/styles";
 
+
+let theme: Theme = createMuiTheme({
+  palette: {
+    primary: {
+      main: `#181D27`
+    },
+    secondary: {
+      main: `#AA2E25`
+    },
+  },
+  typography: {
+    fontFamily: [
+      'Roboto',
+      '"Helvetica Neue"',
+      'Arial',
+      'sans-serif',
+      '"Apple Color Emoji"',
+      '"Segoe UI Emoji"',
+      '"Segoe UI Symbol"',
+    ].join(","),
+    fontSize: 10,
+    htmlFontSize: 10 
+  },
+  spacing: 4,
+});
+
+theme = responsiveFontSizes(theme);
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+
+  <ThemeProvider theme={theme}>
+    <Router>
+    
+        <App />
+      
+    </Router>
+  </ThemeProvider>
+,
   document.getElementById('root')
 );
 
