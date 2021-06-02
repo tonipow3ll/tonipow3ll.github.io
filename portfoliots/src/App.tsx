@@ -4,8 +4,7 @@ import './App.css';
 import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
 import NavBar from './Components/NavBar'
 import { Container } from '@material-ui/core';
-import About from './Views/About'
-import Projects from './Views/Projects'
+
 import Home from './Views/Home'
 
 // set up theme in Index
@@ -19,10 +18,9 @@ function App() {
         <NavBar />
         <Switch>
             <Container maxWidth='xl'>
-                <Route exact path="/" component={Home}/>
-                <Route exact path="/About" component={About}/>
-                <Route exact path="/Projects" component={Projects}/>
-            </Container>
+              <Home/>
+              </Container>
+         
         </Switch>
       </Router>
      

@@ -4,8 +4,8 @@ import { withRouter } from 'react-router';
 import MenuIcon from '@material-ui/icons/Menu';
 import IconButton from '@material-ui/core/IconButton'
 import { makeStyles, createStyles, Theme } from "@material-ui/core/styles";
-
-import { Drawer, List, ListItem, ListItemText } from "@material-ui/core"
+import { Link as ScrollLink } from "react-scroll";
+import { Drawer, List, ListItem, ListItemText, Typography } from "@material-ui/core"
 
 import { AppBar, MenuItem } from "@material-ui/core"
 
@@ -39,7 +39,6 @@ const useStyles = makeStyles((theme: Theme) => createStyles({
     rightAppBar: {
         marginLeft: `auto`,
         marginRight: 10
-
     },
     mobileNav: {
         display: `flex`,
@@ -47,8 +46,6 @@ const useStyles = makeStyles((theme: Theme) => createStyles({
         textDecoration: `none`,
         textTransform: `uppercase`,
         justifyContent: `flex-end`,
-
-
     },
     links: {
         margin: `5px`,
@@ -76,10 +73,10 @@ const useStyles = makeStyles((theme: Theme) => createStyles({
 
 
 const navLinks: { title: string, path: string }[] = [
-    { title: `Home`, path: `/` },
-    { title: `About`, path: `/about` },
-    { title: `Projects`, path: `/projects` },
-    { title: `Resume`, path: `/resume` }
+    { title: `Home`, path: `home` },
+    { title: `About`, path: `about` },
+    { title: `Projects`, path: `projects` },
+    { title: `Resume`, path: `resume` }
 ]
 
 const NavBar: React.FC = (): JSX.Element => {
@@ -129,15 +126,14 @@ const NavBar: React.FC = (): JSX.Element => {
                         onClose: handleDrawerClose,
                         // className: classes.mobileNav
                     }}>
-                    <List className={classes.menu} component="nav" aria-labelledby="main navigation" >
-                   
-                        <MenuItem className={classes.mobileNav}>
-                            <Link className={classes.links} to="/">Home</Link>
-                        </MenuItem>
-                        <MenuItem className={classes.mobileNav}>
-                            <Link className={classes.links} to="/about">About</Link>
-                            <Link className={classes.links} to="/Projects">Projects</Link>
-                        </MenuItem>
+                         <List component="nav" aria-labelledby="main navigation" className={classes.mobileNav}>
+                        {navLinks.map(({ title, path }) => (
+                            <ScrollLink smooth={true} duration={500} to={path} key={title} className={classes.linkText}>
+                                <ListItem button>
+                                    <ListItemText primary={title} />
+                                </ListItem>
+                            </ScrollLink>
+                        ))}
                     </List>
                 </Drawer>
             </AppBar>
@@ -147,14 +143,16 @@ const NavBar: React.FC = (): JSX.Element => {
     const displayDesktop = () => {
         return (
             <AppBar position="fixed" className={classes.navbar}>
+                {/* <section>Toni Powell</section> */}
                 <section className={classes.rightAppBar}>
                     <List component="nav" aria-labelledby="main navigation" className={classes.navDisplayFlex}>
-                        {navLinks.map(({ title, path }) => (
-                            <Link to={path} key={title} className={classes.linkText}>
+                       <Typography>Toni Powell</Typography>
+                    {navLinks.map(({ title, path }) => (
+                            <ScrollLink smooth={true} duration={500} to={path} key={title} className={classes.linkText}>
                                 <ListItem button>
                                     <ListItemText primary={title} />
                                 </ListItem>
-                            </Link>
+                            </ScrollLink>
                         ))}
                     </List>
              
