@@ -1,5 +1,7 @@
 # Portfolio 
 ### ![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)
+### Updated portfolio with Typescript, React, and Material-UI coming soon! 
+### In the mean time, check out my most recent colloborative project - [BandWidth](https://bandwi-d-th.herokuapp.com/)
 ### This is my first React project, and my portfolio site. I would love to hear any feedback you may have on the portfolio itself, or any of the projects featured. Feel free to shoot me an email! 
 # ![ScreenShot](https://user-images.githubusercontent.com/72999798/115029178-b771c600-9e93-11eb-83e2-f031fcdf840b.png)
 ### [View the Deployed Portfolio Here](https://tonipow3ll.github.io/)
