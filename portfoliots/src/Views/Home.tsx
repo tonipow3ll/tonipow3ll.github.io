@@ -5,18 +5,20 @@ import Projects from './Projects'
 
 const useStyles = makeStyles((theme: Theme) => createStyles({
     root: {
-        //   display: `flex`,
-        //   backgroundSize: "cover",
-        //   backgroundRepeat: 'no-repeat',
-        //   backgroundPosition: 'center',
-        //   width: "100vw",
-        //   justifyContent: `center`,
-        paddingTop: `5rem`,
-        height: `100vh`
-
+          display: `flex`,
+          backgroundSize: "cover",
+          backgroundColor: "#000",
+          width: "100vw",
+          paddingTop: `5rem`,
+          height: `100vh`
+    },
+    main: {
+        color: theme.palette.primary.main,
+    },
+    second: {
+        color: theme.palette.secondary.main
     },
     footer: {
-        //   backgroundColor: theme.palette.primary.main,
         display: `flex`,
     }
 
@@ -27,8 +29,11 @@ const Home: React.FC = (): JSX.Element => {
         <>
             <Container id="home" className={classes.root}>
                 <div>
-                    <Typography variant="h4">Hi, my name is Toni</Typography>
+                    <Typography className={classes.main}variant="h4">Hi, I'm <Typography className={classes.second} variant="h4" display="inline">Toni</Typography></Typography>
+                    <Typography className={classes.main} variant="h4">Developer from Weare, NH</Typography>
                 </div>
+
+             
             </Container>
             <Container id="about" className={classes.root}>
                 <About />

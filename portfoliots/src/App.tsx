@@ -6,6 +6,7 @@ import NavBar from './Components/NavBar'
 import { Container } from '@material-ui/core';
 
 import Home from './Views/Home'
+import About from './Views/About'
 
 // set up theme in Index
 // set up 'home page'
@@ -17,9 +18,14 @@ function App() {
       <Router>
         <NavBar />
         <Switch>
+
             <Container maxWidth='xl'>
               <Home/>
               </Container>
+              {/* <Container maxWidth='xl'> */}
+
+              <About />
+              {/* </Container> */}
          
         </Switch>
       </Router>

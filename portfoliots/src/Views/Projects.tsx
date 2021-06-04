@@ -2,16 +2,20 @@ import React from 'react';
 import { createStyles, makeStyles, Theme, Typography } from '@material-ui/core';
 
 const useStyles = makeStyles((theme: Theme) => createStyles({
-    root: {
-    //   display: `flex`,
-    //   backgroundSize: "cover",
-    //   backgroundRepeat: 'no-repeat',
-    //   backgroundPosition: 'center',
-    //   width: "100vw",
-    //   justifyContent: `center`,
-      paddingTop: `5rem`
-  
-    },
+  root: {
+    display: `flex`,
+    backgroundSize: "cover",
+    backgroundColor: "#000",
+    minWidth: "100vw",
+    paddingTop: `5rem`,
+    height: `100vh`
+  },
+  main: {
+    color: theme.palette.primary.main,
+  },
+  second: {
+    color: theme.palette.secondary.main
+  },
     footer: {
     //   backgroundColor: theme.palette.primary.main,
       display: `flex`,
@@ -21,9 +25,7 @@ const Projects: React.FC = (): JSX.Element => {
     const classes = useStyles()
     return(
         <div className={classes.root}>
-           <Typography variant="h3">
-           Project page working!
-               </Typography> 
+           <Typography className={classes.main}variant="h3"> Projects </Typography> 
         </div>
     )
 }

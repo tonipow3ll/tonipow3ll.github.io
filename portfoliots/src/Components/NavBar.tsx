@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme: Theme) => createStyles({
     linkText: {
         textDecoration: `none`,
         textTransform: `uppercase`,
-        color: `black`,
+        color: theme.palette.primary.main,
         justifyContent: `center`,
         "&:hover": {
             color: theme.palette.secondary.main
@@ -25,7 +25,7 @@ const useStyles = makeStyles((theme: Theme) => createStyles({
 
     },
     navbar: {
-        backgroundColor: `transparent`,
+        backgroundColor: `#000000`,
         borderBottomWidth: `2px`,
         borderLeftWidth: `2px`,
         borderRightWidth: `2px`,
@@ -50,7 +50,7 @@ const useStyles = makeStyles((theme: Theme) => createStyles({
     links: {
         margin: `5px`,
         padding: `5px`,
-        // color: theme.palette.primary.main,
+        color: theme.palette.primary.main,
         // backgroundColor: `rgba(255,255,255,0.6)`,
         width: `100%`,
         fontSize: `1.2rem`,
@@ -146,7 +146,7 @@ const NavBar: React.FC = (): JSX.Element => {
                 {/* <section>Toni Powell</section> */}
                 <section className={classes.rightAppBar}>
                     <List component="nav" aria-labelledby="main navigation" className={classes.navDisplayFlex}>
-                       <Typography>Toni Powell</Typography>
+                       {/* <Typography>Toni Powell</Typography> */}
                     {navLinks.map(({ title, path }) => (
                             <ScrollLink smooth={true} duration={500} to={path} key={title} className={classes.linkText}>
                                 <ListItem button>
