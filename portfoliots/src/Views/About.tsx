@@ -32,11 +32,12 @@ const About: React.FC = (): JSX.Element => {
   return (
 // display={{ xs: 'block', sm: 'block', md: 'block', lg: 'block', xl: 'block' }}
     <>
-      <Container className={`${classes.main} ${classes.root}`} >
+      <Container disableGutters={true} className={`${classes.main} ${classes.root}`} >
         <div>
       <Typography variant="h4">About</Typography>
 
-          Hi! Thanks for visiting my Portfolio. My name is Toni, and I am a full stack developer from Weare, NH.
+         <Typography>
+           Hi! Thanks for visiting my Portfolio. My name is Toni, and I am a full stack developer from Weare, NH.
 
           I am an adventurer, explorer, tinker-er. I enjoy creating code (of course), as well as sometimes working on small engine mechanical projects. I also enjoy hiking with my dogs and husband, and exploring NH on my four wheeler or snowmobile.
 
@@ -54,6 +55,7 @@ const About: React.FC = (): JSX.Element => {
           Developer, Discoverer, Dogmom
           Weare, NH
           tonipow3ll@gmail.com
+           </Typography> 
 </div>
 
 

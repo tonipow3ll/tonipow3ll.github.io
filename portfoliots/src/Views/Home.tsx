@@ -8,7 +8,7 @@ const useStyles = makeStyles((theme: Theme) => createStyles({
           display: `flex`,
           backgroundSize: "cover",
           backgroundColor: "#000",
-          width: "100vw",
+          minWidth: "100vw",
           paddingTop: `5rem`,
           height: `100vh`
     },
@@ -27,13 +27,11 @@ const Home: React.FC = (): JSX.Element => {
     const classes = useStyles()
     return (
         <>
-            <Container id="home" className={classes.root}>
+            <Container disableGutters={true} id="home" className={classes.root}>
                 <div>
                     <Typography className={classes.main}variant="h4">Hi, I'm <Typography className={classes.second} variant="h4" display="inline">Toni</Typography></Typography>
                     <Typography className={classes.main} variant="h4">Developer from Weare, NH</Typography>
                 </div>
-
-             
             </Container>
             <Container id="about" className={classes.root}>
                 <About />
