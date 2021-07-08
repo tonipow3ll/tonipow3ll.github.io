@@ -10,7 +10,9 @@ const useStyles = makeStyles((theme: Theme) => createStyles({
           backgroundColor: "#000",
           minWidth: "100vw",
           paddingTop: `5rem`,
-          height: `100vh`
+          height: `100vh`,
+          justifyContent: `center`,
+          alignItems: `center`,
     },
     main: {
         color: theme.palette.primary.main,

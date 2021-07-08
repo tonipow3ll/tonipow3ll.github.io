@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme: Theme) => createStyles({
     backgroundColor: "#FAFAFB",
     minWidth: "100vw",
     paddingTop: `2rem`,
-    maxHeight: `100vh`
+    minHeight: `100vh`
   },
   main: {
     color: theme.palette.primary.main,
@@ -30,7 +30,7 @@ const useStyles = makeStyles((theme: Theme) => createStyles({
 const About: React.FC = (): JSX.Element => {
   const classes = useStyles()
   return (
-// display={{ xs: 'block', sm: 'block', md: 'block', lg: 'block', xl: 'block' }}
+
     <>
       <Container disableGutters={true} className={`${classes.main} ${classes.root}`} >
         <div>
