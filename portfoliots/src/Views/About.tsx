@@ -37,11 +37,11 @@ const About: React.FC = (): JSX.Element => {
       <Typography variant="h4">About</Typography>
 
          <Typography>
-           Hi! Thanks for visiting my Portfolio. My name is Toni, and I am a full stack developer from Weare, NH.
+           Hi! Thanks for visiting my Portfolio. My name is Toni, and I am a developer from Weare, NH.
 
           I am an adventurer, explorer, tinker-er. I enjoy creating code (of course), as well as sometimes working on small engine mechanical projects. I also enjoy hiking with my dogs and husband, and exploring NH on my four wheeler or snowmobile.
 
-          I am a recent graduate of the University of New Hampshire's 24 week Coding Bootcamp, and I am hoping to land a new position as a Junior Software Engineer, or Junior Developer by September 2021.
+          I am a recent graduate of the University of New Hampshire's 24 week Coding Bootcamp. I recently accepted a position with The Atom Group as a Junior Software Engineer, and I am excited to continue my learning journey with them. 
 
           I completed my undergraduate studies in 2016, and earned my Bachelors of Fine Arts (Photography). I enjoy programming because it lets me scratch my 'creative itch', and just being able to make cool stuff on the web is.. well.. cool!
 

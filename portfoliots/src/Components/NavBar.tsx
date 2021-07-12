@@ -54,7 +54,9 @@ const useStyles = makeStyles((theme: Theme) => createStyles({
         // backgroundColor: `rgba(255,255,255,0.6)`,
         width: `100%`,
         fontSize: `1.2rem`,
-        alignContent: `center`
+        alignContent: `left`,
+        justifyContent: `left`,
+        textAlign: `left`,
     },
     menu: {
         display: `flex`,
@@ -146,7 +148,7 @@ const NavBar: React.FC = (): JSX.Element => {
                 {/* <section>Toni Powell</section> */}
                 <section className={classes.rightAppBar}>
                     <List component="nav" aria-labelledby="main navigation" className={classes.navDisplayFlex}>
-                       {/* <Typography>Toni Powell</Typography> */}
+                       {/* <Typography className={classes.links}>Toni Powell</Typography> */}
                     {navLinks.map(({ title, path }) => (
                             <ScrollLink smooth={true} duration={500} to={path} key={title} className={classes.linkText}>
                                 <ListItem button>

@@ -31,7 +31,7 @@ const Home: React.FC = (): JSX.Element => {
         <>
             <Container disableGutters={true} id="home" className={classes.root}>
                 <div>
-                    <Typography className={classes.main}variant="h4">Hi, I'm <Typography className={classes.second} variant="h4" display="inline">Toni</Typography></Typography>
+                    <Typography className={classes.main} variant="h4">Hi, My name is <Typography className={classes.second} variant="h4" display="inline">Toni</Typography></Typography>
                     <Typography className={classes.main} variant="h4">Full Stack Developer from Weare, NH</Typography>
                 </div>
             </Container>
